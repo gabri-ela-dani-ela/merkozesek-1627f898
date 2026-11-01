@@ -1,7 +1,7 @@
 name: Actualizare program
 on:
   schedule:
-    - cron: '*/30 5-20 * * *'   # UTC; mai jos se filtrează la 08:00–22:00 ora României (vară și iarnă)
+    - cron: '*/30 * * * *'   # la 30 de minute; window.js decide: 07:00–23:00 ora României sau meci SC în desfășurare
   workflow_dispatch:
 permissions:
   contents: write
@@ -10,17 +10,12 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Doar între 08:00 și 22:00, ora României
-        id: hours
-        run: |
-          NOW=$(TZ=Europe/Bucharest date +%H%M)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$NOW" -ge 0800 ] && [ "$NOW" -le 2215 ]; }; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Ora României $NOW – în afara intervalului, nu verific."
-          fi
       - uses: actions/checkout@v4
-        if: steps.hours.outputs.run == 'true'
+      - name: Interval de verificare (07:00–23:00 RO sau meci în desfășurare)
+        id: hours
+        env:
+          EVENT: ${{ github.event_name }}
+        run: node window.js
       - uses: actions/setup-node@v4
         if: steps.hours.outputs.run == 'true'
         with: { node-version: 20 }
