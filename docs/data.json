@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T19:00:22.095Z",
+ "generated": "2026-11-01T19:39:37.254Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,10 +7,10 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-01T18:20:58.694Z",
- "elStandingsUpdated": "2026-11-01T18:18:56.891Z",
+ "elUpdated": "2026-11-01T19:38:39.676Z",
+ "elStandingsUpdated": "2026-11-01T19:36:11.884Z",
  "config": {
-  "ntfyTopic": ""
+  "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
  "games": [
   {
@@ -991,29 +991,29 @@
   "EL": [
    {
     "pos": 1,
-    "team": "DVTK Jegesmedvék",
+    "team": "Corona Brasov",
     "sc": false,
     "gp": 13,
     "w": 8,
     "otw": 2,
-    "otl": 1,
-    "l": 2,
-    "gf": 38,
-    "ga": 30,
-    "pts": 29
+    "otl": 2,
+    "l": 1,
+    "gf": 53,
+    "ga": 34,
+    "pts": 30
    },
    {
     "pos": 2,
-    "team": "Corona Brasov",
+    "team": "DVTK Jegesmedvék",
     "sc": false,
-    "gp": 12,
+    "gp": 14,
     "w": 8,
-    "otw": 1,
+    "otw": 2,
     "otl": 2,
-    "l": 1,
-    "gf": 49,
-    "ga": 31,
-    "pts": 28
+    "l": 2,
+    "gf": 41,
+    "ga": 34,
+    "pts": 30
    },
    {
     "pos": 3,
@@ -1095,29 +1095,29 @@
    },
    {
     "pos": 9,
-    "team": "Dunaújvárosi Acélbikák",
-    "sc": false,
-    "gp": 13,
-    "w": 0,
-    "otw": 0,
-    "otl": 2,
-    "l": 11,
-    "gf": 16,
-    "ga": 64,
-    "pts": 2
-   },
-   {
-    "pos": 10,
     "team": "FEHA19",
     "sc": false,
-    "gp": 13,
-    "w": 0,
+    "gp": 14,
+    "w": 1,
     "otw": 0,
     "otl": 1,
     "l": 12,
-    "gf": 24,
-    "ga": 59,
-    "pts": 1
+    "gf": 27,
+    "ga": 61,
+    "pts": 4
+   },
+   {
+    "pos": 10,
+    "team": "Dunaújvárosi Acélbikák",
+    "sc": false,
+    "gp": 14,
+    "w": 0,
+    "otw": 0,
+    "otl": 2,
+    "l": 12,
+    "gf": 18,
+    "ga": 67,
+    "pts": 2
    }
   ],
   "CN": [
@@ -1162,6 +1162,19 @@
    },
    {
     "pos": 4,
+    "team": "CSM Galati",
+    "sc": false,
+    "gp": 9,
+    "w": 5,
+    "otw": 0,
+    "otl": 0,
+    "l": 4,
+    "gf": 44,
+    "ga": 29,
+    "pts": 15
+   },
+   {
+    "pos": 5,
     "team": "ACSHC Fenestela 68",
     "sc": false,
     "gp": 10,
@@ -1174,29 +1187,16 @@
     "pts": 14
    },
    {
-    "pos": 5,
-    "team": "CSM Galati",
-    "sc": false,
-    "gp": 8,
-    "w": 4,
-    "otw": 0,
-    "otl": 0,
-    "l": 4,
-    "gf": 41,
-    "ga": 27,
-    "pts": 12
-   },
-   {
     "pos": 6,
     "team": "CSA Steaua Bucuresti",
     "sc": false,
-    "gp": 8,
+    "gp": 9,
     "w": 2,
     "otw": 0,
     "otl": 1,
-    "l": 5,
-    "gf": 37,
-    "ga": 37,
+    "l": 6,
+    "gf": 39,
+    "ga": 40,
     "pts": 7
    },
    {
