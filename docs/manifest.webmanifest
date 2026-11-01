@@ -1,0 +1,16 @@
+{
+ "name": "Merkozesek 2026-2027",
+ "short_name": "Merkozesek",
+ "start_url": "./",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#425ca3",
+ "icons": [
+  {
+   "src": "icon.png",
+   "sizes": "300x300",
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ]
+}

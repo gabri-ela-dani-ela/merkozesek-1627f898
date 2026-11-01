@@ -1,0 +1,39 @@
+name: Actualizare program
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # la fiecare 30 de minute
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: update
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm install --no-audit --no-fund
+      - name: Téma beolvasása (config.json)
+        run: echo "NTFY_TOPIC=$(node -p "require('./config.json').ntfyTopic || ''")" >> "$GITHUB_ENV"
+      - name: Citire pagini oficiale
+        id: build
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: |
+          node build.js docs | tee build.log
+          if grep -q '^CHANGES' build.log; then echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Notificare push la modificare de program
+        if: steps.build.outputs.changed == 'true' && env.NTFY_TOPIC != ''
+        run: |
+          sed -n '/^CHANGES/,$p' build.log | tail -n +2 > msg.txt
+          curl -s -H "Title: Merkozesek 2026-2027 - program modificat" -H "Priority: high" -H "Tags: rotating_light,ice_hockey" \
+               -H "Click: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" \
+               --data-binary @msg.txt "https://ntfy.sh/$NTFY_TOPIC"
+      - name: Publicare
+        run: |
+          git config user.name "merkozesek-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "Actualizare program $(date -u +%FT%TZ)"
+          git push

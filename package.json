@@ -1,0 +1,7 @@
+{
+  "name": "merkozesek-2026-2027",
+  "private": true,
+  "description": "Calendar SC Miercurea Ciuc 2026-2027 (Erste Liga + CN) din surse oficiale",
+  "scripts": { "build": "node build.js docs" },
+  "dependencies": { "puppeteer-core": "23.11.1" }
+}

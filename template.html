@@ -1,0 +1,408 @@
+<title>Merkozesek 2026-2027</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#425ca3">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: menetrendlap a jégen — eredményjelző-fejléc, nézetválasztó (telefonon alul rögzítve), bajnokság szerint színezett sorok. */
+:root {
+  --ice: #f2f4f9;          /* oldal háttere: jég, a klubkék felé hangolva */
+  --club: #425ca3;         /* klubkék — a címer színe (MJSZ hivatalos logó) */
+  --club-tint: #e8ecf7;
+  --ink: #1d2a52;          /* szöveg: a klubkék sötét változata */
+  --ink-2: #56628a;        /* másodlagos szöveg */
+  --line: #cdd4e6;
+  --el: #d4ebfa;           /* Erste Liga: világoskék */
+  --el-line: #9fcbea;
+  --cn: #ffffff;           /* Román bajnokság: fehér */
+  --flag-red: #c4231b; --flag-red-bg: #fff3f1;
+  --flag-green: #1f8a3e; --flag-green-bg: #effaf2;
+  --win: #1d6b3a; --loss: #8a2b22;
+  --display: "Saira Condensed", "Arial Narrow", sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+body { background: var(--ice); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.45; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--ice); }
+.wrap { max-width: 1040px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 48px; }
+header.board { background: var(--club); color: #fff; border: 0; border-radius: 14px; padding: 16px 20px; display: grid; gap: 14px; grid-template-columns: 1fr auto; align-items: center; }
+.brand { display: flex; gap: 14px; align-items: center; min-width: 0; }
+.brand img { width: 76px; height: 76px; flex: none; background: #fff; border-radius: 50%; padding: 3px; }
+header.board h1 { font-family: var(--display); font-weight: 800; font-size: clamp(26px, 4.6vw, 42px); line-height: 1.1; margin: 0; letter-spacing: .01em; text-wrap: balance; color: #fff; }
+header.board .sub { color: #dfe5f5; font-size: 13.5px; line-height: 1.4; margin-top: 8px; }
+.pos { display: flex; gap: 10px; flex-wrap: wrap; }
+.pos div { background: #fff; border-radius: 10px; padding: 8px 12px; min-width: 112px; }
+.pos b { display: block; font-family: var(--display); font-size: 28px; line-height: 1.05; font-variant-numeric: tabular-nums; margin-top: 2px; }
+.pos small { display: block; font-size: 12.5px; color: var(--ink); margin-top: 2px; }
+.pos-title { flex-basis: 100%; grid-column: 1 / -1; margin: 0; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #dfe5f5; }
+@media (max-width: 640px) {
+  header.board { padding: 14px; gap: 14px; }
+  .brand img { width: 58px; height: 58px; }
+  .pos { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .pos div { min-width: 0; padding: 8px 10px; }
+  .pos b { font-size: 24px; }
+  .pos small { font-size: 12px; }
+}
+.pos span { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+.pos b { color: var(--club); }
+/* Nyitóképernyő a címerrel */
+#splash { position: fixed; inset: 0; z-index: 50; background: #fff; display: grid; place-items: center; align-content: center; gap: 14px; text-align: center; cursor: pointer;
+  padding: env(safe-area-inset-top, 0px) max(16px, env(safe-area-inset-right, 0px)) env(safe-area-inset-bottom, 0px) max(16px, env(safe-area-inset-left, 0px)); }
+#splash img { width: min(56vw, 240px); height: auto; }
+#splash h2 { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 8vw, 48px); color: var(--club); margin: 0; }
+#splash p { margin: 0; color: var(--ink-2); font-size: 14px; }
+@media (prefers-reduced-motion: no-preference) { #splash { transition: opacity .45s ease; } #splash img { animation: puck .9s ease-out both; } }
+@keyframes puck { from { transform: scale(.85); opacity: .4; } to { transform: none; opacity: 1; } }
+#splash.out { opacity: 0; pointer-events: none; }
+@media (max-width: 640px) { header.board { grid-template-columns: 1fr; } }
+
+/* Nézetválasztó + nyelv */
+.controls { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--ice); display: flex; gap: 10px 16px; flex-wrap: wrap; align-items: center; justify-content: space-between; padding-block: 12px 10px; }
+.seg { display: inline-flex; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
+.seg button { font: 600 14px var(--body); border: 0; background: transparent; color: var(--ink); padding: 7px 14px; border-radius: 999px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.seg button[aria-pressed="true"] { background: var(--club); color: #fff; }
+.seg button:focus-visible, .filters select:focus-visible, .cal-nav button:focus-visible { outline: 3px solid #5aa6dc; outline-offset: 2px; }
+.seg svg { width: 16px; height: 16px; }
+.ctl-label { font-size: 12px; color: var(--ink-2); text-transform: uppercase; letter-spacing: .08em; margin-right: 6px; }
+/* Telefonon a nézetválasztó alul, hüvelykujjnyira */
+@media (max-width: 640px) {
+  .viewbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: #fff; border-top: 1px solid var(--line);
+    padding: 8px max(16px, env(safe-area-inset-right, 0px)) calc(8px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+  .viewbar .ctl-label { display: none; }
+  .viewbar .seg { display: grid; grid-template-columns: repeat(3, 1fr); width: 100%; border: 0; padding: 0; }
+  .viewbar .seg button { flex-direction: column; gap: 2px; font-size: 12px; padding: 6px 4px; border-radius: 10px; justify-content: center; }
+  .viewbar .seg svg { width: 22px; height: 22px; }
+  .wrap { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
+}
+
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 4px 2px 10px; font-size: 13px; color: var(--ink-2); align-items: center; }
+.sw { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: -2px; margin-right: 6px; border: 1px solid var(--line); }
+.sw.el { background: var(--el); border-color: var(--el-line); } .sw.cn { background: var(--cn); }
+.sw.both { background: linear-gradient(90deg, var(--cn) 50%, var(--el) 50%); border-color: var(--el-line); }
+.flag { display: inline-block; width: 15px; height: 15px; vertical-align: -2px; }
+.flag.red { color: var(--flag-red); } .flag.green { color: var(--flag-green); }
+.filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; font-size: 13px; color: var(--ink-2); align-items: center; }
+.filters select { font: 500 14px var(--body); padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: #fff; color: var(--ink); }
+.alert { border: 1px solid var(--flag-red); background: var(--flag-red-bg); border-radius: 10px; padding: 10px 14px; margin-bottom: 10px; font-size: 14px; }
+.alert strong { color: var(--flag-red); }
+.alert.green { border-color: var(--flag-green); background: var(--flag-green-bg); }
+.alert.green strong { color: var(--flag-green); }
+
+/* A nézet: lista */
+.month-h { font-family: var(--display); font-weight: 700; font-size: 20px; text-transform: uppercase; letter-spacing: .06em; margin: 22px 2px 8px; color: var(--ink-2); }
+.game { display: grid; grid-template-columns: 74px 1fr auto; gap: 12px; align-items: center; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; margin-bottom: 8px; background: var(--cn); }
+.game.EL { background: var(--el); border-color: var(--el-line); }
+.game.both { background: linear-gradient(90deg, var(--cn) 0 74px, var(--el) 74px); border-color: var(--el-line); }
+.game.past { opacity: .8; }
+.date { font-family: var(--display); line-height: 1; text-align: center; }
+.date b { display: block; font-size: 30px; font-weight: 800; }
+.date small { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+.match { min-width: 0; }
+.match .teams { font-weight: 600; font-size: 16px; }
+.match .meta { font-size: 13px; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 2px 12px; margin-top: 2px; }
+.tag { font: 700 11px var(--body); letter-spacing: .06em; padding: 2px 7px; border-radius: 4px; background: var(--club); color: #fff; }
+.tag.cn { background: #fff; color: var(--club); border: 1px solid var(--club); }
+.score { font-family: var(--display); font-weight: 800; font-size: 26px; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.score small { display: block; font: 600 11px var(--body); letter-spacing: .06em; }
+.score .W { color: var(--win); } .score .L { color: var(--loss); }
+.time { font-family: var(--display); font-weight: 700; font-size: 22px; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.time small { display: block; font: 500 12px var(--body); color: var(--ink-2); }
+.note { grid-column: 1 / -1; font-size: 13px; border-top: 1px dashed var(--flag-red); padding-top: 8px; }
+.note b { color: var(--flag-red); }
+.note.green { border-top-color: var(--flag-green); }
+.note.green b { color: var(--flag-green); }
+.note.info { border-top-color: var(--line); color: var(--ink-2); }
+@media (max-width: 520px) { .game { grid-template-columns: 56px 1fr; } .game.both { background: linear-gradient(90deg, var(--cn) 0 56px, var(--el) 56px); } .score, .time { grid-column: 2; text-align: left; } }
+
+/* B nézet: havi naptár */
+.cal-nav { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.cal-nav h2 { font-family: var(--display); font-size: 26px; margin: 0; flex: 1; text-transform: capitalize; }
+.cal-nav button { font: 600 18px var(--body); width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: #fff; cursor: pointer; color: var(--ink); }
+.cal { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+.cal .dow { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); text-align: center; padding: 4px 0; }
+.cal .d { min-height: 92px; background: #f7fafc; border: 1px solid #dde6ed; border-radius: 8px; padding: 4px; font-size: 12px; min-width: 0; }
+.cal .d.empty { background: transparent; border: none; }
+.cal .d .n { font-weight: 600; color: var(--ink-2); }
+.cal .ev { border-radius: 5px; padding: 3px 4px; margin-top: 3px; border: 1px solid var(--line); background: var(--cn); line-height: 1.2; overflow-wrap: anywhere; }
+.cal .ev.EL { background: var(--el); border-color: var(--el-line); }
+.cal .ev.both { background: linear-gradient(90deg, var(--cn) 0 6px, var(--el) 6px); border-color: var(--el-line); }
+.cal .ev b { font-variant-numeric: tabular-nums; }
+.cal .flag { width: 12px; height: 12px; }
+@media (max-width: 560px) { .cal .d { min-height: 64px; font-size: 10.5px; } .cal .ev .vsfull { display: none; } }
+@media (min-width: 561px) { .cal .ev .vsshort { display: none; } }
+
+/* C nézet: táblázat + tabellák */
+.scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums; }
+th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #e3eaf0; white-space: nowrap; }
+th { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-2); background: #f4f7fa; }
+tr.EL td { background: var(--el); } tr.CN td { background: var(--cn); }
+tr.both td { background: var(--el); } tr.both td:first-child { box-shadow: inset 6px 0 0 #fff; }
+tr.sc td { font-weight: 700; background: #fff7d6; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 18px; }
+.grid2 > section { min-width: 0; }
+h3 { font-family: var(--display); font-size: 22px; margin: 0 0 8px; }
+.src { font-size: 12px; color: var(--ink-2); margin-top: 4px; }
+footer { margin-top: 28px; font-size: 12.5px; color: var(--ink-2); display: grid; gap: 6px; }
+footer a { color: var(--ink); }
+.subscribe { margin-top: 22px; background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.subscribe h3 { margin-bottom: 4px; }
+.subscribe h4 { margin: 14px 0 6px; font-size: 15px; }
+.subscribe p { margin: 4px 0; }
+.btns { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0; }
+.btn { display: inline-flex; align-items: center; gap: 6px; font: 600 14px var(--body); background: var(--club); color: #fff; text-decoration: none; padding: 10px 14px; border-radius: 10px; border: 0; cursor: pointer; }
+.btn.ghost { background: #fff; color: var(--club); border: 1px solid var(--club); }
+.btn:focus-visible { outline: 3px solid #5aa6dc; outline-offset: 2px; }
+.copyrow { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.copyrow code { flex: 1 1 200px; padding: 6px 8px; }
+.muted { color: var(--ink-2); font-size: 13px; }
+code { background: #eef3f7; padding: 1px 5px; border-radius: 4px; font-size: 13px; overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: no-preference) { .game { transition: transform .12s; } .game:hover { transform: translateX(2px); } }
+</style>
+
+<div id="splash" role="button" tabindex="0" aria-label="Start">
+  <img src="__CREST__" alt="SC Csíkszereda">
+  <h2>Merkozesek 2026-2027</h2>
+  <p id="splash-sub"></p>
+</div>
+<div class="wrap">
+  <header class="board">
+    <div class="brand">
+      <img src="__CREST__" alt="SC Csíkszereda">
+      <div>
+        <h1>Merkozesek 2026-2027</h1>
+        <div class="sub" id="subtitle"></div>
+      </div>
+    </div>
+    <div class="pos" id="pos"></div>
+  </header>
+
+  <div class="controls">
+    <div class="viewbar">
+      <span class="ctl-label" id="lbl-view"></span>
+      <div class="seg" role="group" id="views">
+        <button type="button" id="v-btn-a" data-v="a" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span></span></button>
+        <button type="button" id="v-btn-b" data-v="b" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg><span></span></button>
+        <button type="button" id="v-btn-c" data-v="c" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M3 15h18M10 4v16"/></svg><span></span></button>
+      </div>
+    </div>
+    <div>
+      <span class="ctl-label" id="lbl-lang"></span>
+      <div class="seg" role="group" id="langs">
+        <button type="button" id="l-btn-hu" data-l="hu" aria-pressed="true">HU</button>
+        <button type="button" id="l-btn-en" data-l="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="legend" id="legend"></div>
+  <div id="alerts"></div>
+
+  <div class="filters">
+    <label for="f-comp" id="lbl-comp"></label>
+    <select id="f-comp"></select>
+    <label for="f-when" id="lbl-when"></label>
+    <select id="f-when"></select>
+  </div>
+
+  <section id="v-a"></section>
+  <section id="v-b" hidden></section>
+  <section id="v-c" hidden></section>
+
+  <div class="subscribe" id="subscribe"></div>
+  <footer id="foot"></footer>
+</div>
+
+<script id="seed" type="application/json">__DATA__</script>
+<script id="i18n" type="application/json">__I18N__</script>
+<script>
+(() => {
+  let data = JSON.parse(document.getElementById('seed').textContent);
+  const I18N = JSON.parse(document.getElementById('i18n').textContent);
+  const store = { get: (k, d) => { try { return localStorage.getItem(k) || d; } catch { return d; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch {} } };
+  const hashView = { lista: 'a', list: 'a', naptar: 'b', calendar: 'b', tablazat: 'c', table: 'c' }[location.hash.slice(1)];
+  let view = hashView || store.get('mk-view', 'a');
+  let lang = store.get('mk-lang', 'hu') === 'en' ? 'en' : 'hu';
+  let calMonth = null;
+  const L = () => I18N[lang], U = () => I18N[lang].ui;
+  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const fill = (s, p) => s.replace(/\{(\w+)\}/g, (_, k) => p[k] ?? '');
+  const FLAG = (c) => `<svg class="flag ${c}" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1v14" stroke="currentColor" stroke-width="1.6"/><path d="M4 2h9l-2.5 3.5L13 9H4z" fill="currentColor"/></svg>`;
+  const flagIcon = (g) => (g.flag ? FLAG(g.flag) + ' ' : '');
+  const tv = (g) => (g.tv ? ` <span title="${esc(U().legendTv)}" aria-label="${esc(U().legendTv)}">📺</span>` : '');
+  const now = Date.now();
+  const cls = (g) => (g.comp === 'CN+EL' ? 'EL both' : g.comp);
+  const teams = (g) => (g.home ? `${L().sc} – ${g.opponent}` : `${g.opponent} – ${L().sc}`);
+  const shortName = (s) => s.replace(/\s*\(.*\)/, '').replace(/^(ACSHC?|CSM|CSA|ACS) /, '');
+  const short = (g) => (g.home ? 'SC – ' + shortName(g.opponent) : shortName(g.opponent) + ' – SC');
+  const timeLabel = (g) => (g.localTime ? `${g.localTime} ${g.country}` : U().noTime);
+  const roNote = (g) => (g.country === 'HU' && g.roTime ? `${g.roTime} RO` : '');
+  const resText = (r) => (r ? `${r.h}-${r.a}${r.so ? ' ' + L().so : r.ot ? ' ' + L().ot : ''}` : '');
+  const flagText = (f) => fill(L().flags[f.c] || f.c, { ...f, both: f.both ? L().flags.textOnlyBoth : '' });
+  const dayDate = (day) => new Date(day + 'T12:00:00Z');
+  const fmtDay = (day, opt) => new Intl.DateTimeFormat(L().locale, { timeZone: 'UTC', ...opt }).format(dayDate(day));
+  const longDay = (day) => fmtDay(day, { month: 'long', day: 'numeric' });
+  const played = (g) => !!g.result;
+  const filtered = () => {
+    const c = document.getElementById('f-comp').value, w = document.getElementById('f-when').value;
+    return data.games.filter((g) => (c === 'all' || g.comp.includes(c)) && (w === 'all' || (w === 'past' ? played(g) : !played(g))));
+  };
+  const resolvedFor = (day) => (data.resolved || []).find((r) => r.day === day);
+  const note = (g) => {
+    if (g.flag === 'red') return `<div class="note"><b>${FLAG('red')} ${esc(U().noteRed)}</b> ${esc(U().noteRedText)} ${g.flags.length ? g.flags.map((f) => esc(flagText(f))).join(' · ') : esc(U().noteRedOther)}</div>`;
+    if (g.flags.some((f) => f.c === 'rescheduled')) return `<div class="note info">↻ ${esc(flagText({ c: 'rescheduled' }))}</div>`;
+    if (g.flag === 'green') {
+      const r = resolvedFor(g.day);
+      const was = r ? r.was.flatMap((w) => w.flags).map((f) => esc(flagText(f))).join(' · ') : '';
+      return `<div class="note green"><b>${FLAG('green')} ${esc(U().noteGreen)}</b> ${r ? esc(fmtDay(r.at.slice(0, 10), { month: 'long', day: 'numeric' })) + '. ' : ''}${esc(U().noteGreenText)} ${was}</div>`;
+    }
+    return '';
+  };
+
+  function setOptions(id, opts, keep) {
+    const s = document.getElementById(id), v = keep ?? s.value;
+    s.innerHTML = opts.map(([val, txt]) => `<option value="${val}">${esc(txt)}</option>`).join('');
+    s.value = opts.some(([val]) => val === v) ? v : opts[0][0];
+  }
+
+  function chrome() {
+    const u = U();
+    document.documentElement.lang = lang;
+    document.getElementById('subtitle').textContent = u.subtitle;
+    const splashSub = document.getElementById('splash-sub');
+    if (splashSub) splashSub.textContent = u.subtitle;
+    document.getElementById('lbl-view').textContent = u.view;
+    document.getElementById('lbl-lang').textContent = u.lang;
+    for (const v of ['a', 'b', 'c']) {
+      const b = document.getElementById('v-btn-' + v);
+      b.querySelector('span').textContent = u.views[v];
+      b.setAttribute('aria-pressed', String(v === view));
+      document.getElementById('v-' + v).hidden = v !== view;
+    }
+    for (const l of ['hu', 'en']) document.getElementById('l-btn-' + l).setAttribute('aria-pressed', String(l === lang));
+    document.getElementById('legend').innerHTML = `<span><i class="sw el"></i>${esc(u.legendEL)}</span><span><i class="sw cn"></i>${esc(u.legendCN)}</span><span><i class="sw both"></i>${esc(u.legendBoth)}</span><span>${FLAG('red')} ${esc(u.legendRed)}</span><span>${FLAG('green')} ${esc(u.legendGreen)}</span><span>📺 ${esc(u.legendTv)}</span>`;
+    document.getElementById('lbl-comp').textContent = u.filterComp;
+    document.getElementById('lbl-when').textContent = u.filterWhen;
+    setOptions('f-comp', [['all', u.all], ['EL', L().comp.EL], ['CN', L().comp.CN]]);
+    setOptions('f-when', [['all', u.all], ['next', u.next], ['past', u.past]]);
+    const el = data.standings.EL.find((r) => r.sc), cn = data.standings.CN.find((r) => r.sc);
+    const box = (r, lbl) => (r ? `<div><span>${esc(lbl)}</span><b>${esc(fill(u.posLine, r))}</b><small>${esc(fill(u.posSub, r))}</small></div>` : '');
+    document.getElementById('pos').innerHTML = `<p class="pos-title">${esc(u.posTitle)}</p>` + box(el, u.posEL) + box(cn, u.posCN);
+    const red = [...new Set(data.games.filter((g) => g.flag === 'red').map((g) => g.day))];
+    const green = data.resolved || [];
+    document.getElementById('alerts').innerHTML =
+      (red.length ? `<div class="alert"><strong>${FLAG('red')} ${esc(fill(u.alertRed, { n: red.length }))}</strong> ${((l) => l + (l.endsWith('.') ? '' : '.'))(red.map((d) => esc(longDay(d))).join(', '))} ${esc(u.alertRedTail)}</div>` : '') +
+      (green.length ? `<div class="alert green"><strong>${FLAG('green')} ${esc(u.alertGreen)}</strong> ${green.map((r) => `${esc(longDay(r.day))} (${esc(u.resolvedOn)} ${esc(fmtDay(r.at.slice(0, 10), { month: 'short', day: 'numeric' }))})`).join(', ')}</div>` : '');
+    // Telepítő linkek a saját (GitHub Pages) címből; a claude.ai előnézetben nincs valódi cím.
+    const live = /^https?:$/.test(location.protocol) && !/claude\.ai|claudeusercontent/.test(location.hostname);
+    const httpsIcs = live ? new URL('merkozesek' + (lang === 'en' ? '-en' : '') + '.ics', location.href).href : '';
+    const webcal = httpsIcs.replace(/^https?:/, 'webcal:');
+    const topic = data.config?.ntfyTopic || '';
+    const ntfyLink = topic ? `ntfy://ntfy.sh/${encodeURIComponent(topic)}?display=${encodeURIComponent('Merkozesek 2026-2027')}` : '';
+    document.getElementById('subscribe').innerHTML = `<h3>${esc(u.phoneTitle)}</h3>
+      ${live ? '' : `<p class="muted">${esc(u.notPublished)}</p>`}
+      <h4>${esc(u.step1)}</h4><p>${u.step1Ios}</p><p>${u.step1Android}</p>
+      <h4>${esc(u.step2)}</h4>
+      ${live ? `<div class="btns"><a class="btn" href="${esc(webcal)}">${esc(u.btnIos)}</a><a class="btn" href="https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}" target="_blank" rel="noopener">${esc(u.btnGoogle)}</a></div>
+      <p class="muted">${esc(u.step2Manual)}</p><div class="copyrow"><code id="ics-url">${esc(httpsIcs)}</code><button type="button" class="btn ghost" id="copy-ics">${esc(u.copy)}</button></div>` : ''}
+      <p class="muted">${esc(u.step2Note)}</p>
+      <h4>${esc(u.step3)}</h4>
+      <p>${esc(u.step3a)}</p><div class="btns"><a class="btn ghost" href="https://apps.apple.com/us/app/ntfy/id1625396347" target="_blank" rel="noopener">App Store (iPhone)</a><a class="btn ghost" href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Google Play (Android)</a></div>
+      ${ntfyLink ? `<p>${esc(u.step3b)}</p><div class="btns"><a class="btn" href="${esc(ntfyLink)}">${esc(u.btnNtfy)}</a></div>` : `<p class="muted">${esc(u.step3Missing)}</p>`}`;
+    const cb = document.getElementById('copy-ics');
+    if (cb) cb.onclick = () => {
+      const done = () => { cb.textContent = u.copied; };
+      const select = () => { const r = document.createRange(); r.selectNodeContents(document.getElementById('ics-url')); getSelection().removeAllRanges(); getSelection().addRange(r); };
+      if (navigator.clipboard) navigator.clipboard.writeText(httpsIcs).then(done, select); else select();
+    };
+    const dt = new Date(data.generated).toLocaleString(L().locale, { timeZone: 'Europe/Bucharest' });
+    const s = data.sources;
+    document.getElementById('foot').innerHTML = `<div>${esc(fill(u.footSrc, { dt }))} <a href="${s.elSchedule}" target="_blank" rel="noopener">MJSZ Erste Liga – menetrend</a>, <a href="${s.elStandings}" target="_blank" rel="noopener">tabella</a>, <a href="${s.frhg}" target="_blank" rel="noopener">FRHG seniori</a>, <a href="${s.frhgChamp}" target="_blank" rel="noopener">icehockey.ro</a>.</div><div>${esc(u.footNote)}</div>`;
+  }
+
+  function viewA() {
+    const u = U();
+    let html = '', cur = '';
+    for (const g of filtered()) {
+      const key = g.day.slice(0, 7);
+      if (key !== cur) { cur = key; html += `<div class="month-h">${esc(fmtDay(g.day, { month: 'long', year: 'numeric' }))}</div>`; }
+      const outcome = { W: u.win, L: u.loss, live: u.live };
+      const right = played(g)
+        ? `<div class="score"><span class="${g.result.outcome}">${esc(resText(g.result))}</span><small>${outcome[g.result.outcome]}</small></div>`
+        : `<div class="time">${esc(timeLabel(g))}<small>${esc(roNote(g))}</small></div>`;
+      html += `<article class="game ${cls(g)} ${played(g) ? 'past' : ''}">
+        <div class="date"><b>${+g.day.slice(8)}</b><small>${esc(fmtDay(g.day, { weekday: 'short' }))}</small></div>
+        <div class="match"><div class="teams">${flagIcon(g)}${esc(teams(g))}${tv(g)}</div>
+          <div class="meta"><span class="tag ${g.comp === 'CN' ? 'cn' : ''}">${L().compShort[g.comp]}</span><span>${g.home ? u.home : u.away}</span><span>${esc(g.venue || u.noVenue)}</span>${played(g) ? `<span>${esc(timeLabel(g))}${roNote(g) ? ' · ' + roNote(g) : ''}</span>` : ''}</div></div>
+        ${right}${note(g)}</article>`;
+    }
+    document.getElementById('v-a').innerHTML = html || `<p>${esc(u.empty)}</p>`;
+  }
+
+  function viewB() {
+    const u = U(), games = filtered();
+    if (!calMonth) { const nx = data.games.find((g) => Date.parse(g.start) > now) || data.games[0]; calMonth = [+nx.day.slice(0, 4), +nx.day.slice(5, 7)]; }
+    const [y, m] = calMonth;
+    const first = new Date(Date.UTC(y, m - 1, 1)).getUTCDay(), days = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    // 2026-11-02 hétfő → a hét napjainak nevei hétfőtől
+    let cells = [...Array(7)].map((_, i) => `<div class="dow">${esc(fmtDay(`2026-11-0${2 + i}`, { weekday: 'short' }))}</div>`).join('');
+    for (let i = 0; i < (first + 6) % 7; i++) cells += '<div class="d empty"></div>';
+    for (let d = 1; d <= days; d++) {
+      const key = `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+      const evs = games.filter((g) => g.day === key).map((g) =>
+        `<div class="ev ${cls(g)}" title="${esc(teams(g) + ' · ' + timeLabel(g) + ' · ' + (g.venue || ''))}">${flagIcon(g)}<b>${esc(g.result ? resText(g.result) : g.localTime ? g.localTime + ' ' + g.country : '?')}</b>${g.tv ? ' 📺' : ''}<br><span class="vsfull">${esc(short(g))}</span><span class="vsshort">${esc(short(g).slice(0, 12))}</span></div>`).join('');
+      cells += `<div class="d"><div class="n">${d}</div>${evs}</div>`;
+    }
+    const title = new Intl.DateTimeFormat(L().locale, { timeZone: 'UTC', month: 'long', year: 'numeric' }).format(new Date(Date.UTC(y, m - 1, 15)));
+    document.getElementById('v-b').innerHTML = `<div class="cal-nav"><button type="button" id="prev" aria-label="${esc(u.prevMonth)}">‹</button><h2>${esc(title)}</h2><button type="button" id="next" aria-label="${esc(u.nextMonth)}">›</button></div><div class="cal">${cells}</div>`;
+    document.getElementById('prev').onclick = () => { calMonth = m === 1 ? [y - 1, 12] : [y, m - 1]; viewB(); };
+    document.getElementById('next').onclick = () => { calMonth = m === 12 ? [y + 1, 1] : [y, m + 1]; viewB(); };
+  }
+
+  function standTable(rows, title, src) {
+    const c = U().stCols;
+    return `<section><h3>${esc(title)}</h3><div class="scroll"><table><thead><tr>${c.map((h) => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map((r) =>
+      `<tr class="${r.sc ? 'sc' : ''}"><td>${r.pos}</td><td>${esc(r.team)}</td><td>${r.gp}</td><td>${r.w}</td><td>${r.otw}</td><td>${r.otl}</td><td>${r.l}</td><td>${r.gf}–${r.ga}</td><td><b>${r.pts}</b></td></tr>`).join('')}</tbody></table></div><div class="src">${esc(src)}</div></section>`;
+  }
+  function viewC() {
+    const u = U();
+    const rows = filtered().map((g) => `<tr class="${cls(g)}"><td>${flagIcon(g)}${esc(fmtDay(g.day, { year: 'numeric', month: '2-digit', day: '2-digit' }))} ${esc(fmtDay(g.day, { weekday: 'short' }))}</td><td>${esc(timeLabel(g))}${roNote(g) ? ' · ' + roNote(g) : ''}</td><td>${L().compShort[g.comp]}</td><td>${esc(teams(g))}${tv(g)}</td><td>${esc(g.venue || '—')}</td><td>${g.result ? `<b>${esc(resText(g.result))}</b> ${g.result.outcome === 'W' ? u.win : g.result.outcome === 'L' ? u.loss : u.live}` : '—'}</td></tr>`).join('');
+    document.getElementById('v-c').innerHTML = `<div class="scroll"><table><thead><tr><th>${u.thDate}</th><th>${u.thTime}</th><th>${u.thComp}</th><th>${u.thMatch}</th><th>${u.thVenue}</th><th>${u.thResult}</th></tr></thead><tbody>${rows}</tbody></table></div>
+      <div class="grid2">${standTable(data.standings.EL, u.standEL, u.srcEL)}${standTable(data.standings.CN, u.standCN, u.srcCN)}</div>`;
+  }
+
+  function render() {
+    chrome();
+    ({ a: viewA, b: viewB, c: viewC })[view]();
+  }
+
+  document.getElementById('views').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    view = b.dataset.v; store.set('mk-view', view); render(); window.scrollTo({ top: 0 });
+  });
+  document.getElementById('langs').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    lang = b.dataset.l; store.set('mk-lang', lang); render();
+  });
+  document.getElementById('f-comp').addEventListener('change', render);
+  document.getElementById('f-when').addEventListener('change', render);
+  render();
+  // Nyitóképernyő: munkamenetenként egyszer, 1,6 mp után vagy érintésre eltűnik.
+  const splash = document.getElementById('splash');
+  let seen = false;
+  try { seen = sessionStorage.getItem('mk-splash') === '1'; sessionStorage.setItem('mk-splash', '1'); } catch {}
+  const hide = () => { splash.classList.add('out'); setTimeout(() => splash.remove(), 500); };
+  if (seen) splash.remove(); else { setTimeout(hide, 1600); splash.addEventListener('click', hide); splash.addEventListener('keydown', hide); }
+  // GitHub Pages-en: a legfrissebb adat betöltése.
+  fetch('data.json', { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).then((d) => { if (d && d.generated > data.generated) { data = d; render(); } }).catch(() => {});
+})();
+</script>
