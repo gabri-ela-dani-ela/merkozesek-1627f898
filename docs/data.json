@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T19:25:36.655Z",
+ "generated": "2026-11-02T20:15:37.968Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-02T19:24:49.910Z",
- "elStandingsUpdated": "2026-11-02T19:23:31.286Z",
+ "elUpdated": "2026-11-02T20:15:06.845Z",
+ "elStandingsUpdated": "2026-11-02T20:12:47.518Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -1095,29 +1095,29 @@
    },
    {
     "pos": 9,
-    "team": "FEHA19",
-    "sc": false,
-    "gp": 14,
-    "w": 1,
-    "otw": 0,
-    "otl": 1,
-    "l": 12,
-    "gf": 27,
-    "ga": 61,
-    "pts": 4
-   },
-   {
-    "pos": 10,
     "team": "Dunaújvárosi Acélbikák",
     "sc": false,
-    "gp": 14,
+    "gp": 13,
     "w": 0,
     "otw": 0,
     "otl": 2,
-    "l": 12,
-    "gf": 18,
-    "ga": 67,
+    "l": 11,
+    "gf": 16,
+    "ga": 64,
     "pts": 2
+   },
+   {
+    "pos": 10,
+    "team": "FEHA19",
+    "sc": false,
+    "gp": 13,
+    "w": 0,
+    "otw": 0,
+    "otl": 1,
+    "l": 12,
+    "gf": 24,
+    "ga": 59,
+    "pts": 1
    }
   ],
   "CN": [
