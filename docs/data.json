@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T17:44:16.715Z",
+ "generated": "2026-11-05T18:46:48.775Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-03T17:43:40.151Z",
- "elStandingsUpdated": "2026-11-03T17:40:02.550Z",
+ "elUpdated": "2026-11-05T18:46:12.147Z",
+ "elStandingsUpdated": "2026-11-05T18:46:17.650Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -647,20 +647,20 @@
   {
    "id": "EL87",
    "comp": "EL",
-   "start": "2026-11-26T18:00:00.000Z",
+   "start": "2026-11-26T17:30:00.000Z",
    "day": "2026-11-26",
    "home": false,
    "opponent": "Budapest JA HC",
    "venue": "Tüskecsarnok",
    "country": "HU",
-   "localTime": "19:00",
-   "roTime": "20:00",
+   "localTime": "18:30",
+   "roTime": "19:30",
    "result": null,
    "flags": [],
    "tv": false,
    "conflictDay": false,
    "flag": null,
-   "seq": 0
+   "seq": 1
   },
   {
    "id": "EL90",
@@ -1095,29 +1095,29 @@
    },
    {
     "pos": 9,
-    "team": "Dunaújvárosi Acélbikák",
-    "sc": false,
-    "gp": 13,
-    "w": 0,
-    "otw": 0,
-    "otl": 2,
-    "l": 11,
-    "gf": 16,
-    "ga": 64,
-    "pts": 2
-   },
-   {
-    "pos": 10,
     "team": "FEHA19",
     "sc": false,
-    "gp": 13,
-    "w": 0,
+    "gp": 14,
+    "w": 1,
     "otw": 0,
     "otl": 1,
     "l": 12,
-    "gf": 24,
-    "ga": 59,
-    "pts": 1
+    "gf": 27,
+    "ga": 61,
+    "pts": 4
+   },
+   {
+    "pos": 10,
+    "team": "Dunaújvárosi Acélbikák",
+    "sc": false,
+    "gp": 14,
+    "w": 0,
+    "otw": 0,
+    "otl": 2,
+    "l": 12,
+    "gf": 18,
+    "ga": 67,
+    "pts": 2
    }
   ],
   "CN": [
