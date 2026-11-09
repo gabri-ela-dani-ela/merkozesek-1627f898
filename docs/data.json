@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T16:34:23.599Z",
+ "generated": "2026-11-09T17:52:41.006Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-09T16:33:11.659Z",
- "elStandingsUpdated": "2026-11-09T16:29:58.557Z",
+ "elUpdated": "2026-11-09T17:52:02.821Z",
+ "elStandingsUpdated": "2026-11-09T17:52:02.966Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -501,46 +501,13 @@
    "result": null,
    "flags": [
     {
-     "c": "notInText"
-    },
-    {
      "c": "rescheduled"
     }
    ],
    "tv": false,
-   "conflictDay": true,
-   "flag": "red",
-   "seq": 0
-  },
-  {
-   "id": "FRHG-2026-11-13-BRA",
-   "comp": "CN+EL",
-   "start": "2026-11-13T16:30:00.000Z",
-   "day": "2026-11-13",
-   "home": true,
-   "opponent": "Corona Brasov (CSM Corona Brașov)",
-   "venue": null,
-   "country": "RO",
-   "localTime": null,
-   "roTime": null,
-   "result": null,
-   "flags": [
-    {
-     "c": "textOnly",
-     "both": true
-    },
-    {
-     "c": "noTime"
-    },
-    {
-     "c": "mjszDate",
-     "date": "2026-11-18"
-    }
-   ],
-   "tv": false,
-   "conflictDay": true,
-   "flag": "red",
-   "seq": 0
+   "conflictDay": false,
+   "flag": "green",
+   "seq": 1
   },
   {
    "id": "EL77",
@@ -561,32 +528,6 @@
    "seq": 0
   },
   {
-   "id": "FRHG-2026-11-17-STE",
-   "comp": "CN",
-   "start": "2026-11-17T16:30:00.000Z",
-   "day": "2026-11-17",
-   "home": true,
-   "opponent": "CSA Steaua București",
-   "venue": null,
-   "country": "RO",
-   "localTime": null,
-   "roTime": null,
-   "result": null,
-   "flags": [
-    {
-     "c": "textOnly",
-     "both": false
-    },
-    {
-     "c": "noTime"
-    }
-   ],
-   "tv": false,
-   "conflictDay": true,
-   "flag": "red",
-   "seq": 0
-  },
-  {
    "id": "EL72+CNM39",
    "comp": "CN+EL",
    "start": "2026-11-18T16:30:00.000Z",
@@ -598,15 +539,11 @@
    "localTime": "18:30",
    "roTime": "18:30",
    "result": null,
-   "flags": [
-    {
-     "c": "notInText"
-    }
-   ],
+   "flags": [],
    "tv": false,
-   "conflictDay": true,
-   "flag": "red",
-   "seq": 0
+   "conflictDay": false,
+   "flag": "green",
+   "seq": 1
   },
   {
    "id": "CNM45",
@@ -1227,5 +1164,87 @@
    }
   ]
  },
- "resolved": []
+ "resolved": [
+  {
+   "day": "2026-11-13",
+   "at": "2026-11-09T17:52:41.006Z",
+   "was": [
+    {
+     "id": "CNM42",
+     "comp": "CN",
+     "home": true,
+     "opponent": "CSA Steaua București",
+     "roTime": "18:30",
+     "flags": [
+      {
+       "c": "notInText"
+      },
+      {
+       "c": "rescheduled"
+      }
+     ]
+    },
+    {
+     "id": "FRHG-2026-11-13-BRA",
+     "comp": "CN+EL",
+     "home": true,
+     "opponent": "Corona Brasov (CSM Corona Brașov)",
+     "roTime": null,
+     "flags": [
+      {
+       "c": "textOnly",
+       "both": true
+      },
+      {
+       "c": "noTime"
+      },
+      {
+       "c": "mjszDate",
+       "date": "2026-11-18"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": "2026-11-17",
+   "at": "2026-11-09T17:52:41.006Z",
+   "was": [
+    {
+     "id": "FRHG-2026-11-17-STE",
+     "comp": "CN",
+     "home": true,
+     "opponent": "CSA Steaua București",
+     "roTime": null,
+     "flags": [
+      {
+       "c": "textOnly",
+       "both": false
+      },
+      {
+       "c": "noTime"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": "2026-11-18",
+   "at": "2026-11-09T17:52:41.006Z",
+   "was": [
+    {
+     "id": "EL72+CNM39",
+     "comp": "CN+EL",
+     "home": true,
+     "opponent": "Corona Brasov (CSM Corona Brașov)",
+     "roTime": "18:30",
+     "flags": [
+      {
+       "c": "notInText"
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
