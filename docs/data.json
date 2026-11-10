@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T18:42:30.896Z",
+ "generated": "2026-11-10T19:46:32.759Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-10T18:41:01.613Z",
- "elStandingsUpdated": "2026-11-10T18:41:48.544Z",
+ "elUpdated": "2026-11-10T19:45:29.639Z",
+ "elStandingsUpdated": "2026-11-10T19:46:04.902Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -481,8 +481,8 @@
    "localTime": "19:40",
    "roTime": "19:40",
    "result": {
-    "h": 0,
-    "a": 4,
+    "h": 3,
+    "a": 8,
     "ot": false,
     "so": false,
     "outcome": "W"
@@ -1094,14 +1094,14 @@
     "pos": 3,
     "team": "SC Miercurea Ciuc",
     "sc": true,
-    "gp": 8,
-    "w": 5,
+    "gp": 9,
+    "w": 6,
     "otw": 1,
     "otl": 1,
     "l": 1,
-    "gf": 44,
-    "ga": 13,
-    "pts": 18
+    "gf": 52,
+    "ga": 16,
+    "pts": 21
    },
    {
     "pos": 4,
@@ -1146,13 +1146,13 @@
     "pos": 7,
     "team": "ACS Sapientia U23",
     "sc": false,
-    "gp": 7,
+    "gp": 8,
     "w": 1,
     "otw": 0,
     "otl": 0,
-    "l": 6,
-    "gf": 15,
-    "ga": 32,
+    "l": 7,
+    "gf": 18,
+    "ga": 40,
     "pts": 3
    },
    {
