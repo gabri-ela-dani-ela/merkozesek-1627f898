@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T16:45:34.990Z",
+ "generated": "2026-11-10T17:42:23.262Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-10T16:44:11.734Z",
- "elStandingsUpdated": "2026-11-10T16:44:48.083Z",
+ "elUpdated": "2026-11-10T17:41:50.689Z",
+ "elStandingsUpdated": "2026-11-10T17:37:09.007Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -1068,14 +1068,14 @@
     "pos": 1,
     "team": "CSM Corona Brasov",
     "sc": false,
-    "gp": 10,
-    "w": 8,
+    "gp": 11,
+    "w": 9,
     "otw": 0,
     "otl": 2,
     "l": 0,
-    "gf": 53,
-    "ga": 14,
-    "pts": 26
+    "gf": 59,
+    "ga": 15,
+    "pts": 29
    },
    {
     "pos": 2,
@@ -1107,13 +1107,13 @@
     "pos": 4,
     "team": "CSM Galati",
     "sc": false,
-    "gp": 9,
+    "gp": 10,
     "w": 5,
     "otw": 0,
     "otl": 0,
-    "l": 4,
-    "gf": 44,
-    "ga": 29,
+    "l": 5,
+    "gf": 45,
+    "ga": 35,
     "pts": 15
    },
    {
