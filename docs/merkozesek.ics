@@ -10,13 +10,13 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:EL2@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20260918T163000Z
 DTEND:20260918T190000Z
 SUMMARY:🏒 DEAC – SC Csíkszereda 4-2 [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 HU (19:30 RO)\nHelyszín: Debrecen\,
   Centerpálya\nEredmény: 4-2\nErste Liga tabella: SC Csíkszereda 7. hely
-  (23 pont\, 15 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+  (23 pont\, 15 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Debrecen\, Centerpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -29,7 +29,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL6@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20260920T120500Z
 DTEND:20260920T143500Z
 SUMMARY:🏒 UTE – SC Csíkszereda 11-4 [EL] 📺
@@ -37,7 +37,7 @@ DESCRIPTION:Erste Liga\nKezdés: 14:05 HU (15:05 RO)\nHelyszín: Újpesti J
  égcsarnok\n📺 Televíziós közvetítés (az MJSZ menetrend „TV” os
  zlopa szerint\; a csatorna nincs megadva)\nEredmény: 11-4\nErste Liga tab
  ella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\nFrissítve: 2026-11-13
- T05:54:46.732Z
+ T07:00:56.766Z
 LOCATION:Újpesti Jégcsarnok
 CATEGORIES:EL
 COLOR:lightblue
@@ -50,13 +50,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL10@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20260924T153000Z
 DTEND:20260924T180000Z
 SUMMARY:🏒 SC Csíkszereda – UTE 5-2 [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nEredmény: 5-2\nErste Liga tabella: SC Csíkszereda 7. hely (23 po
- nt\, 15 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ nt\, 15 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -69,13 +69,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL13@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20260925T153000Z
 DTEND:20260925T180000Z
 SUMMARY:🏒 SC Csíkszereda – DVTK Jegesmedvék 4-3 h.u. [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nEredmény: 4-3 h.u.\nErste Liga tabella: SC Csíkszereda 7. hely (
- 23 pont\, 15 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ 23 pont\, 15 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -88,13 +88,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL17@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20260927T153000Z
 DTEND:20260927T180000Z
 SUMMARY:🏒 SC Csíkszereda – Dunaújvárosi Acélbikák 3-1 [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nEredmény: 3-1\nErste Liga tabella: SC Csíkszereda 7. hely (23 po
- nt\, 15 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ nt\, 15 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -107,7 +107,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL26+CNM8@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261002T153000Z
 DTEND:20261002T180000Z
 SUMMARY:🏒 Gyergyói HK (ACSH Gheorgheni) – SC Csíkszereda 2-1 b.u. [R
@@ -115,7 +115,7 @@ SUMMARY:🏒 Gyergyói HK (ACSH Gheorgheni) – SC Csíkszereda 2-1 b.u. [R
 DESCRIPTION:Román bajnokság + Erste Liga\nKezdés: 18:30 RO\nHelyszín: R
  emete Ice Arena\nEredmény: 2-1 b.u.\nErste Liga tabella: SC Csíkszereda 
  7. hely (23 pont\, 15 meccs)\nRomán bajnokság tabella: SC Csíkszereda 3
- . hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ . hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Remete Ice Arena
 CATEGORIES:CN+EL
 COLOR:lightblue
@@ -128,14 +128,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:CNM11@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261004T153000Z
 DTEND:20261004T180000Z
 SUMMARY:🏒 CSA Steaua București – SC Csíkszereda 2-3 b.u. [RO]
 DESCRIPTION:Román bajnokság\nKezdés: 18:30 RO\nHelyszín: Patinoarul Dor
  u Tureanu\, Bucuresti\nEredmény: 2-3 b.u.\nRomán bajnokság tabella: SC 
- Csíkszereda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.
- 732Z
+ Csíkszereda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.
+ 766Z
 LOCATION:Patinoarul Doru Tureanu\, Bucuresti
 CATEGORIES:CN
 COLOR:white
@@ -148,13 +148,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL33@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261008T153000Z
 DTEND:20261008T180000Z
 SUMMARY:🏒 SC Csíkszereda – DEAC 1-2 [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nEredmény: 1-2\nErste Liga tabella: SC Csíkszereda 7. hely (23 po
- nt\, 15 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ nt\, 15 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -167,13 +167,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL34@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261009T153000Z
 DTEND:20261009T180000Z
 SUMMARY:🏒 SC Csíkszereda – Budapest JA HC 2-4 [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nEredmény: 2-4\nErste Liga tabella: SC Csíkszereda 7. hely (23 po
- nt\, 15 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ nt\, 15 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -186,13 +186,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL40@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261011T163000Z
 DTEND:20261011T190000Z
 SUMMARY:🏒 SC Csíkszereda – FEHA19 3-2 b.u. [EL]
 DESCRIPTION:Erste Liga\nKezdés: 19:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nEredmény: 3-2 b.u.\nErste Liga tabella: SC Csíkszereda 7. hely (
- 23 pont\, 15 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ 23 pont\, 15 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -205,13 +205,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:CNM17@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261013T153000Z
 DTEND:20261013T180000Z
 SUMMARY:🏒 SC Csíkszereda – CSM Galați 5-3 [RO]
 DESCRIPTION:Román bajnokság\nKezdés: 18:30 RO\nHelyszín: Patinoarul Vak
  ar Lajos\, M-Ciuc\nEredmény: 5-3\nRomán bajnokság tabella: SC Csíkszer
- eda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ eda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Patinoarul Vakar Lajos\, M-Ciuc
 CATEGORIES:CN
 COLOR:white
@@ -224,7 +224,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL44+CNM20@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261016T153000Z
 DTEND:20261016T180000Z
 SUMMARY:🏒 SC Csíkszereda – Háromszéki Ágyúsok (ACSHC Fenestela 68
@@ -232,7 +232,7 @@ SUMMARY:🏒 SC Csíkszereda – Háromszéki Ágyúsok (ACSHC Fenestela 68
 DESCRIPTION:Román bajnokság + Erste Liga\nKezdés: 18:30 RO\nHelyszín: V
  ákár Lajos Műjégpálya\nEredmény: 7-1\nErste Liga tabella: SC Csíksz
  ereda 7. hely (23 pont\, 15 meccs)\nRomán bajnokság tabella: SC Csíksze
- reda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ reda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:CN+EL
 COLOR:lightblue
@@ -246,13 +246,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:CNM22@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261017T153000Z
 DTEND:20261017T180000Z
 SUMMARY:🏒 Sportul Studențesc – SC Csíkszereda 0-15 [RO]
 DESCRIPTION:Román bajnokság\nKezdés: 18:30 RO\nHelyszín: Patinoarul Dor
  u Tureanu\, Bucuresti\nEredmény: 0-15\nRomán bajnokság tabella: SC Csí
- kszereda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ kszereda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Patinoarul Doru Tureanu\, Bucuresti
 CATEGORIES:CN
 COLOR:white
@@ -265,13 +265,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:CNM27@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261020T153000Z
 DTEND:20261020T180000Z
 SUMMARY:🏒 SC Csíkszereda – ACS Sapientia U23 6-0 [RO]
 DESCRIPTION:Román bajnokság\nKezdés: 18:30 RO\nHelyszín: Patinoarul Vak
  ar Lajos\, M-Ciuc\nEredmény: 6-0\nRomán bajnokság tabella: SC Csíkszer
- eda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ eda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Patinoarul Vakar Lajos\, M-Ciuc
 CATEGORIES:CN
 COLOR:white
@@ -284,7 +284,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL159+CNM29@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261023T153000Z
 DTEND:20261023T180000Z
 SUMMARY:🏒 Corona Brasov (CSM Corona Brașov) – SC Csíkszereda 4-1 [RO
@@ -292,7 +292,7 @@ SUMMARY:🏒 Corona Brasov (CSM Corona Brașov) – SC Csíkszereda 4-1 [RO
 DESCRIPTION:Román bajnokság + Erste Liga\nKezdés: 18:30 RO\nHelyszín: P
  atinoarul Olimpic Brasov\nEredmény: 4-1\nErste Liga tabella: SC Csíkszer
  eda 7. hely (23 pont\, 15 meccs)\nRomán bajnokság tabella: SC Csíkszere
- da 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ da 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Patinoarul Olimpic Brasov
 CATEGORIES:CN+EL
 COLOR:lightblue
@@ -305,7 +305,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL56+CNM32@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261025T163000Z
 DTEND:20261025T190000Z
 SUMMARY:🏒 Háromszéki Ágyúsok (ACSHC Fenestela 68) – SC Csíkszered
@@ -313,7 +313,7 @@ SUMMARY:🏒 Háromszéki Ágyúsok (ACSHC Fenestela 68) – SC Csíkszered
 DESCRIPTION:Román bajnokság + Erste Liga\nKezdés: 18:30 RO\nHelyszín: D
  eme László Műjégpálya\nEredmény: 1-6\nErste Liga tabella: SC Csíksz
  ereda 7. hely (23 pont\, 15 meccs)\nRomán bajnokság tabella: SC Csíksze
- reda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ reda 3. hely (21 pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Deme László Műjégpálya
 CATEGORIES:CN+EL
 COLOR:lightblue
@@ -327,13 +327,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL58@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261029T170000Z
 DTEND:20261029T193000Z
 SUMMARY:🏒 Dunaújvárosi Acélbikák – SC Csíkszereda 2-3 h.u. [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:00 HU (19:00 RO)\nHelyszín: Dunaújvá
  rosi Jégcsarnok\nEredmény: 2-3 h.u.\nErste Liga tabella: SC Csíkszereda
-  7. hely (23 pont\, 15 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+  7. hely (23 pont\, 15 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Dunaújvárosi Jégcsarnok
 CATEGORIES:EL
 COLOR:lightblue
@@ -346,13 +346,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL62@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261030T180000Z
 DTEND:20261030T203000Z
 SUMMARY:🏒 Budapest JA HC – SC Csíkszereda 3-5 [EL]
 DESCRIPTION:Erste Liga\nKezdés: 19:00 HU (20:00 RO)\nHelyszín: Tüskecsar
  nok\nEredmény: 3-5\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\
- , 15 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ , 15 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Tüskecsarnok
 CATEGORIES:EL
 COLOR:lightblue
@@ -365,7 +365,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL66@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261101T150000Z
 DTEND:20261101T173000Z
 SUMMARY:🏒 UTE – SC Csíkszereda 2-1 h.u. [EL] 📺
@@ -373,7 +373,7 @@ DESCRIPTION:Erste Liga\nKezdés: 16:00 HU (17:00 RO)\nHelyszín: Újpesti J
  égcsarnok\n📺 Televíziós közvetítés (az MJSZ menetrend „TV” os
  zlopa szerint\; a csatorna nincs megadva)\nEredmény: 2-1 h.u.\nErste Liga
   tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\nFrissítve: 2026-1
- 1-13T05:54:46.732Z
+ 1-13T07:00:56.766Z
 LOCATION:Újpesti Jégcsarnok
 CATEGORIES:EL
 COLOR:lightblue
@@ -386,13 +386,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:CNM37@merkozesek-2026-2027
 SEQUENCE:1
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261110T174000Z
 DTEND:20261110T201000Z
 SUMMARY:🏒 ACS Sapientia U23 – SC Csíkszereda 3-8 [RO]
 DESCRIPTION:Román bajnokság\nKezdés: 19:40 RO\nHelyszín: Patinoarul Car
  ta\nEredmény: 3-8\nRomán bajnokság tabella: SC Csíkszereda 3. hely (21
-  pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+  pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Patinoarul Carta
 CATEGORIES:CN
 COLOR:white
@@ -405,7 +405,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:CNM42@merkozesek-2026-2027
 SEQUENCE:1
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261113T163000Z
 DTEND:20261113T190000Z
 SUMMARY:🟢 🏒 SC Csíkszereda – CSA Steaua București [RO]
@@ -413,7 +413,7 @@ DESCRIPTION:Román bajnokság\nKezdés: 18:30 RO\nHelyszín: Patinoarul Vak
  ar Lajos\, M-Ciuc\nRomán bajnokság tabella: SC Csíkszereda 3. hely (21 
  pont\, 9 meccs)\n↻ az FRHG platform „Rescheduled” (átütemezve) jel
  zéssel közli\n🟢 A korábbi ütközés megoldódott (2026-11-09). A fo
- rrások most egyeznek.\nFrissítve: 2026-11-13T05:54:46.732Z
+ rrások most egyeznek.\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Patinoarul Vakar Lajos\, M-Ciuc
 CATEGORIES:CN
 COLOR:white
@@ -426,13 +426,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL77@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261115T163000Z
 DTEND:20261115T190000Z
 SUMMARY:🏒 SC Csíkszereda – Háromszéki Ágyúsok [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -445,7 +445,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL72+CNM39@merkozesek-2026-2027
 SEQUENCE:1
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261118T163000Z
 DTEND:20261118T190000Z
 SUMMARY:🟢 🏒 SC Csíkszereda – Corona Brasov (CSM Corona Brașov) [R
@@ -454,7 +454,7 @@ DESCRIPTION:Román bajnokság + Erste Liga\nKezdés: 18:30 RO\nHelyszín: V
  ákár Lajos Műjégpálya\nErste Liga tabella: SC Csíkszereda 7. hely (2
  3 pont\, 15 meccs)\nRomán bajnokság tabella: SC Csíkszereda 3. hely (21
   pont\, 9 meccs)\n🟢 A korábbi ütközés megoldódott (2026-11-09). A 
- források most egyeznek.\nFrissítve: 2026-11-13T05:54:46.732Z
+ források most egyeznek.\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:CN+EL
 COLOR:lightblue
@@ -467,13 +467,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:CNM45@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261120T163000Z
 DTEND:20261120T190000Z
 SUMMARY:🏒 SC Csíkszereda – Sportul Studențesc [RO]
 DESCRIPTION:Román bajnokság\nKezdés: 18:30 RO\nHelyszín: Patinoarul Vak
  ar Lajos\, M-Ciuc\nRomán bajnokság tabella: SC Csíkszereda 3. hely (21 
- pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Patinoarul Vakar Lajos\, M-Ciuc
 CATEGORIES:CN
 COLOR:white
@@ -486,13 +486,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL86@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261122T150000Z
 DTEND:20261122T173000Z
 SUMMARY:🏒 Gyergyói HK – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 17:00 RO\nHelyszín: Remete Ice Arena\nErs
  te Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\nFrissítve:
-  2026-11-13T05:54:46.732Z
+  2026-11-13T07:00:56.766Z
 LOCATION:Remete Ice Arena
 CATEGORIES:EL
 COLOR:lightblue
@@ -505,13 +505,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL87@merkozesek-2026-2027
 SEQUENCE:1
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261126T173000Z
 DTEND:20261126T200000Z
 SUMMARY:🏒 Budapest JA HC – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 HU (19:30 RO)\nHelyszín: Tüskecsar
  nok\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\nFri
- ssítve: 2026-11-13T05:54:46.732Z
+ ssítve: 2026-11-13T07:00:56.766Z
 LOCATION:Tüskecsarnok
 CATEGORIES:EL
 COLOR:lightblue
@@ -524,13 +524,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL90@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261127T173000Z
 DTEND:20261127T200000Z
 SUMMARY:🏒 FEHA19 – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 HU (19:30 RO)\nHelyszín: MET Aréna
  \nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\nFriss
- ítve: 2026-11-13T05:54:46.732Z
+ ítve: 2026-11-13T07:00:56.766Z
 LOCATION:MET Aréna
 CATEGORIES:EL
 COLOR:lightblue
@@ -543,13 +543,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL94@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261129T160000Z
 DTEND:20261129T183000Z
 SUMMARY:🏒 Dunaújvárosi Acélbikák – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 17:00 HU (18:00 RO)\nHelyszín: Dunaújvá
  rosi Jégcsarnok\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 1
- 5 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ 5 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Dunaújvárosi Jégcsarnok
 CATEGORIES:EL
 COLOR:lightblue
@@ -562,14 +562,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL103+CNM52@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261204T163000Z
 DTEND:20261204T190000Z
 SUMMARY:🏒 SC Csíkszereda – Gyergyói HK (ACSH Gheorgheni) [RO+EL]
 DESCRIPTION:Román bajnokság + Erste Liga\nKezdés: 18:30 RO\nHelyszín: V
  ákár Lajos Műjégpálya\nErste Liga tabella: SC Csíkszereda 7. hely (2
  3 pont\, 15 meccs)\nRomán bajnokság tabella: SC Csíkszereda 3. hely (21
-  pont\, 9 meccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+  pont\, 9 meccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:CN+EL
 COLOR:lightblue
@@ -582,13 +582,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:CNM56@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261206T163000Z
 DTEND:20261206T190000Z
 SUMMARY:🏒 CSM Galați – SC Csíkszereda [RO]
 DESCRIPTION:Román bajnokság\nKezdés: 18:30 RO\nHelyszín: Patinoarul Gal
  ati\nRomán bajnokság tabella: SC Csíkszereda 3. hely (21 pont\, 9 meccs
- )\nFrissítve: 2026-11-13T05:54:46.732Z
+ )\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Patinoarul Galati
 CATEGORIES:CN
 COLOR:white
@@ -601,13 +601,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL107@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261217T163000Z
 DTEND:20261217T190000Z
 SUMMARY:🏒 SC Csíkszereda – FEHA19 [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -620,13 +620,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL110@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261218T163000Z
 DTEND:20261218T190000Z
 SUMMARY:🏒 SC Csíkszereda – Budapest JA HC [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -639,13 +639,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL117@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261220T163000Z
 DTEND:20261220T190000Z
 SUMMARY:🏒 SC Csíkszereda – DEAC [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -658,13 +658,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL119@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261226T163000Z
 DTEND:20261226T190000Z
 SUMMARY:🏒 Corona Brasov – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Patinoarul Olimpic Br
  asov\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\nFr
- issítve: 2026-11-13T05:54:46.732Z
+ issítve: 2026-11-13T07:00:56.766Z
 LOCATION:Patinoarul Olimpic Brasov
 CATEGORIES:EL
 COLOR:lightblue
@@ -677,13 +677,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL124@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261228T163000Z
 DTEND:20261228T190000Z
 SUMMARY:🏒 Háromszéki Ágyúsok – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Deme László Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Deme László Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -696,13 +696,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL129@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20261230T163000Z
 DTEND:20261230T190000Z
 SUMMARY:🏒 SC Csíkszereda – Gyergyói HK [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -715,13 +715,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL137@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20270102T163000Z
 DTEND:20270102T190000Z
 SUMMARY:🏒 SC Csíkszereda – Corona Brasov [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -734,13 +734,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL141@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20270107T163000Z
 DTEND:20270107T190000Z
 SUMMARY:🏒 SC Csíkszereda – UTE [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -753,13 +753,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL143@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20270108T163000Z
 DTEND:20270108T190000Z
 SUMMARY:🏒 SC Csíkszereda – Dunaújvárosi Acélbikák [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -772,13 +772,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL148@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20270110T163000Z
 DTEND:20270110T190000Z
 SUMMARY:🏒 SC Csíkszereda – DVTK Jegesmedvék [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 RO\nHelyszín: Vákár Lajos Műjég
  pálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\n
- Frissítve: 2026-11-13T05:54:46.732Z
+ Frissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Vákár Lajos Műjégpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -791,13 +791,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL163@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20270122T173000Z
 DTEND:20270122T200000Z
 SUMMARY:🏒 DEAC – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 HU (19:30 RO)\nHelyszín: Debrecen\,
   Centerpálya\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 m
- eccs)\nFrissítve: 2026-11-13T05:54:46.732Z
+ eccs)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Debrecen\, Centerpálya
 CATEGORIES:EL
 COLOR:lightblue
@@ -810,13 +810,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL167@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20270124T170000Z
 DTEND:20270124T193000Z
 SUMMARY:🏒 DVTK Jegesmedvék – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:00 HU (19:00 RO)\nHelyszín: Miskolci J
  égcsarnok\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 mecc
- s)\nFrissítve: 2026-11-13T05:54:46.732Z
+ s)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Miskolci Jégcsarnok
 CATEGORIES:EL
 COLOR:lightblue
@@ -829,13 +829,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL171@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20270205T173000Z
 DTEND:20270205T200000Z
 SUMMARY:🏒 FEHA19 – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:30 HU (19:30 RO)\nHelyszín: MET Aréna
  \nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 meccs)\nFriss
- ítve: 2026-11-13T05:54:46.732Z
+ ítve: 2026-11-13T07:00:56.766Z
 LOCATION:MET Aréna
 CATEGORIES:EL
 COLOR:lightblue
@@ -848,13 +848,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:EL176@merkozesek-2026-2027
 SEQUENCE:0
-DTSTAMP:20261113T055446Z
+DTSTAMP:20261113T070056Z
 DTSTART:20270207T170000Z
 DTEND:20270207T193000Z
 SUMMARY:🏒 DVTK Jegesmedvék – SC Csíkszereda [EL]
 DESCRIPTION:Erste Liga\nKezdés: 18:00 HU (19:00 RO)\nHelyszín: Miskolci J
  égcsarnok\nErste Liga tabella: SC Csíkszereda 7. hely (23 pont\, 15 mecc
- s)\nFrissítve: 2026-11-13T05:54:46.732Z
+ s)\nFrissítve: 2026-11-13T07:00:56.766Z
 LOCATION:Miskolci Jégcsarnok
 CATEGORIES:EL
 COLOR:lightblue
