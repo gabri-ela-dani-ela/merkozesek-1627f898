@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T16:47:34.453Z",
+ "generated": "2026-11-13T17:45:04.321Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-13T16:46:44.593Z",
- "elStandingsUpdated": "2026-11-13T16:43:36.049Z",
+ "elUpdated": "2026-11-13T17:44:25.136Z",
+ "elStandingsUpdated": "2026-11-13T17:42:22.385Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -505,8 +505,8 @@
    "localTime": "18:30",
    "roTime": "18:30",
    "result": {
-    "h": 0,
-    "a": 1,
+    "h": 1,
+    "a": 2,
     "ot": false,
     "so": false,
     "outcome": "L"
@@ -1109,26 +1109,26 @@
     "pos": 4,
     "team": "ACSHC Fenestela 68",
     "sc": false,
-    "gp": 11,
-    "w": 5,
+    "gp": 12,
+    "w": 6,
     "otw": 1,
     "otl": 0,
     "l": 5,
-    "gf": 53,
-    "ga": 44,
-    "pts": 17
+    "gf": 55,
+    "ga": 45,
+    "pts": 20
    },
    {
     "pos": 5,
     "team": "CSM Galati",
     "sc": false,
-    "gp": 10,
+    "gp": 11,
     "w": 5,
     "otw": 0,
     "otl": 0,
-    "l": 5,
-    "gf": 45,
-    "ga": 35,
+    "l": 6,
+    "gf": 46,
+    "ga": 37,
     "pts": 15
    },
    {
