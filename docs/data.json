@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T17:45:04.321Z",
+ "generated": "2026-11-13T18:44:54.023Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-13T17:44:25.136Z",
- "elStandingsUpdated": "2026-11-13T17:42:22.385Z",
+ "elUpdated": "2026-11-13T18:44:00.632Z",
+ "elStandingsUpdated": "2026-11-13T18:39:22.422Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -505,8 +505,8 @@
    "localTime": "18:30",
    "roTime": "18:30",
    "result": {
-    "h": 1,
-    "a": 2,
+    "h": 2,
+    "a": 3,
     "ot": false,
     "so": false,
     "outcome": "L"
@@ -1096,13 +1096,13 @@
     "pos": 3,
     "team": "SC Miercurea Ciuc",
     "sc": true,
-    "gp": 9,
+    "gp": 10,
     "w": 6,
     "otw": 1,
     "otl": 1,
-    "l": 1,
-    "gf": 52,
-    "ga": 16,
+    "l": 2,
+    "gf": 54,
+    "ga": 19,
     "pts": 21
    },
    {
@@ -1135,14 +1135,14 @@
     "pos": 6,
     "team": "CSA Steaua Bucuresti",
     "sc": false,
-    "gp": 9,
-    "w": 2,
+    "gp": 10,
+    "w": 3,
     "otw": 0,
     "otl": 1,
     "l": 6,
-    "gf": 39,
-    "ga": 40,
-    "pts": 7
+    "gf": 42,
+    "ga": 42,
+    "pts": 10
    },
    {
     "pos": 7,
