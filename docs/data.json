@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T18:44:54.023Z",
+ "generated": "2026-11-13T19:49:38.650Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-13T18:44:00.632Z",
- "elStandingsUpdated": "2026-11-13T18:39:22.422Z",
+ "elUpdated": "2026-11-13T19:48:33.368Z",
+ "elStandingsUpdated": "2026-11-13T19:48:13.722Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -938,17 +938,30 @@
     "pos": 1,
     "team": "DEAC",
     "sc": false,
-    "gp": 14,
-    "w": 10,
+    "gp": 15,
+    "w": 11,
     "otw": 0,
     "otl": 1,
     "l": 3,
-    "gf": 50,
-    "ga": 33,
-    "pts": 31
+    "gf": 61,
+    "ga": 35,
+    "pts": 34
    },
    {
     "pos": 2,
+    "team": "DVTK Jegesmedvék",
+    "sc": false,
+    "gp": 15,
+    "w": 9,
+    "otw": 2,
+    "otl": 2,
+    "l": 2,
+    "gf": 47,
+    "ga": 36,
+    "pts": 33
+   },
+   {
+    "pos": 3,
     "team": "Corona Brasov",
     "sc": false,
     "gp": 13,
@@ -961,33 +974,33 @@
     "pts": 30
    },
    {
-    "pos": 3,
-    "team": "DVTK Jegesmedvék",
-    "sc": false,
-    "gp": 14,
-    "w": 8,
-    "otw": 2,
-    "otl": 2,
-    "l": 2,
-    "gf": 41,
-    "ga": 34,
-    "pts": 30
-   },
-   {
     "pos": 4,
-    "team": "Budapest Jégkorong Akadémia HC",
+    "team": "UTE",
     "sc": false,
     "gp": 14,
-    "w": 8,
-    "otw": 2,
-    "otl": 1,
-    "l": 3,
-    "gf": 56,
-    "ga": 37,
+    "w": 9,
+    "otw": 1,
+    "otl": 0,
+    "l": 4,
+    "gf": 61,
+    "ga": 30,
     "pts": 29
    },
    {
     "pos": 5,
+    "team": "Budapest Jégkorong Akadémia HC",
+    "sc": false,
+    "gp": 15,
+    "w": 8,
+    "otw": 2,
+    "otl": 1,
+    "l": 4,
+    "gf": 57,
+    "ga": 41,
+    "pts": 29
+   },
+   {
+    "pos": 6,
     "team": "Gyergyói Hoki Klub",
     "sc": false,
     "gp": 16,
@@ -998,19 +1011,6 @@
     "gf": 49,
     "ga": 35,
     "pts": 27
-   },
-   {
-    "pos": 6,
-    "team": "UTE",
-    "sc": false,
-    "gp": 13,
-    "w": 8,
-    "otw": 1,
-    "otl": 0,
-    "l": 4,
-    "gf": 57,
-    "ga": 29,
-    "pts": 26
    },
    {
     "pos": 7,
@@ -1042,26 +1042,26 @@
     "pos": 9,
     "team": "FEHA19",
     "sc": false,
-    "gp": 14,
+    "gp": 15,
     "w": 1,
     "otw": 0,
     "otl": 1,
-    "l": 12,
-    "gf": 27,
-    "ga": 61,
+    "l": 13,
+    "gf": 29,
+    "ga": 67,
     "pts": 4
    },
    {
     "pos": 10,
     "team": "Dunaújvárosi Acélbikák",
     "sc": false,
-    "gp": 14,
+    "gp": 15,
     "w": 0,
     "otw": 0,
     "otl": 2,
-    "l": 12,
-    "gf": 18,
-    "ga": 67,
+    "l": 13,
+    "gf": 20,
+    "ga": 78,
     "pts": 2
    }
   ],
