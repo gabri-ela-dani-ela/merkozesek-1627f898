@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T18:09:00.640Z",
+ "generated": "2026-11-15T19:17:28.081Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-15T18:08:18.286Z",
- "elStandingsUpdated": "2026-11-15T18:08:19.520Z",
+ "elUpdated": "2026-11-15T19:16:02.599Z",
+ "elStandingsUpdated": "2026-11-15T19:14:48.861Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -529,11 +529,11 @@
    "localTime": "18:30",
    "roTime": "18:30",
    "result": {
-    "h": 1,
+    "h": 3,
     "a": 2,
     "ot": false,
     "so": false,
-    "outcome": "live"
+    "outcome": "W"
    },
    "flags": [],
    "tv": false,
@@ -942,6 +942,19 @@
   "EL": [
    {
     "pos": 1,
+    "team": "DVTK Jegesmedvék",
+    "sc": false,
+    "gp": 16,
+    "w": 10,
+    "otw": 2,
+    "otl": 2,
+    "l": 2,
+    "gf": 54,
+    "ga": 36,
+    "pts": 36
+   },
+   {
+    "pos": 2,
     "team": "DEAC",
     "sc": false,
     "gp": 15,
@@ -954,20 +967,20 @@
     "pts": 34
    },
    {
-    "pos": 2,
-    "team": "DVTK Jegesmedvék",
+    "pos": 3,
+    "team": "UTE",
     "sc": false,
     "gp": 15,
-    "w": 9,
-    "otw": 2,
-    "otl": 2,
-    "l": 2,
-    "gf": 47,
-    "ga": 36,
-    "pts": 33
+    "w": 10,
+    "otw": 1,
+    "otl": 0,
+    "l": 4,
+    "gf": 66,
+    "ga": 31,
+    "pts": 32
    },
    {
-    "pos": 3,
+    "pos": 4,
     "team": "Corona Brasov",
     "sc": false,
     "gp": 13,
@@ -978,19 +991,6 @@
     "gf": 53,
     "ga": 34,
     "pts": 30
-   },
-   {
-    "pos": 4,
-    "team": "UTE",
-    "sc": false,
-    "gp": 14,
-    "w": 9,
-    "otw": 1,
-    "otl": 0,
-    "l": 4,
-    "gf": 61,
-    "ga": 30,
-    "pts": 29
    },
    {
     "pos": 5,
@@ -1022,52 +1022,52 @@
     "pos": 7,
     "team": "Sport Club Csíkszereda",
     "sc": true,
-    "gp": 15,
-    "w": 5,
+    "gp": 16,
+    "w": 6,
     "otw": 3,
     "otl": 2,
     "l": 5,
-    "gf": 48,
-    "ga": 44,
-    "pts": 23
+    "gf": 51,
+    "ga": 46,
+    "pts": 26
    },
    {
     "pos": 8,
     "team": "Háromszéki Ágyúsok",
     "sc": false,
-    "gp": 13,
+    "gp": 14,
     "w": 2,
     "otw": 1,
     "otl": 0,
-    "l": 10,
-    "gf": 29,
-    "ga": 54,
+    "l": 11,
+    "gf": 31,
+    "ga": 57,
     "pts": 8
    },
    {
     "pos": 9,
     "team": "FEHA19",
     "sc": false,
-    "gp": 15,
+    "gp": 16,
     "w": 1,
     "otw": 0,
     "otl": 1,
-    "l": 13,
-    "gf": 29,
-    "ga": 67,
+    "l": 14,
+    "gf": 30,
+    "ga": 72,
     "pts": 4
    },
    {
     "pos": 10,
     "team": "Dunaújvárosi Acélbikák",
     "sc": false,
-    "gp": 15,
+    "gp": 16,
     "w": 0,
     "otw": 0,
     "otl": 2,
-    "l": 13,
+    "l": 14,
     "gf": 20,
-    "ga": 78,
+    "ga": 85,
     "pts": 2
    }
   ],
