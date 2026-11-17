@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T11:45:57.518Z",
+ "generated": "2026-11-17T12:55:54.133Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-17T11:45:23.833Z",
- "elStandingsUpdated": "2026-11-17T11:41:52.085Z",
+ "elUpdated": "2026-11-17T12:55:18.684Z",
+ "elStandingsUpdated": "2026-11-17T12:55:21.522Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
