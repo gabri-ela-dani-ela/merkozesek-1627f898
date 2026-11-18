@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T15:26:14.521Z",
+ "generated": "2026-11-18T16:31:34.685Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-18T15:24:40.024Z",
- "elStandingsUpdated": "2026-11-18T15:23:01.699Z",
+ "elUpdated": "2026-11-18T16:29:12.648Z",
+ "elStandingsUpdated": "2026-11-18T16:30:03.561Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -592,7 +592,13 @@
    "country": "RO",
    "localTime": "18:30",
    "roTime": "18:30",
-   "result": null,
+   "result": {
+    "h": 0,
+    "a": 0,
+    "ot": false,
+    "so": false,
+    "outcome": "live"
+   },
    "flags": [
     {
      "c": "notInText"
