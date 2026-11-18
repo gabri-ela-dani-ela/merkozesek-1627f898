@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T17:31:38.092Z",
+ "generated": "2026-11-18T18:48:42.510Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-18T17:30:58.043Z",
- "elStandingsUpdated": "2026-11-18T17:29:05.701Z",
+ "elUpdated": "2026-11-18T18:47:58.191Z",
+ "elStandingsUpdated": "2026-11-18T18:48:05.274Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -594,10 +594,10 @@
    "roTime": "18:30",
    "result": {
     "h": 1,
-    "a": 1,
-    "ot": false,
+    "a": 2,
+    "ot": true,
     "so": false,
-    "outcome": "live"
+    "outcome": "L"
    },
    "flags": [
     {
@@ -1138,14 +1138,14 @@
     "pos": 1,
     "team": "CSM Corona Brasov",
     "sc": false,
-    "gp": 11,
+    "gp": 12,
     "w": 9,
-    "otw": 0,
+    "otw": 1,
     "otl": 2,
     "l": 0,
-    "gf": 59,
-    "ga": 15,
-    "pts": 29
+    "gf": 61,
+    "ga": 16,
+    "pts": 31
    },
    {
     "pos": 2,
@@ -1177,14 +1177,14 @@
     "pos": 4,
     "team": "SC Miercurea Ciuc",
     "sc": true,
-    "gp": 10,
+    "gp": 11,
     "w": 6,
     "otw": 1,
-    "otl": 1,
+    "otl": 2,
     "l": 2,
-    "gf": 54,
-    "ga": 19,
-    "pts": 21
+    "gf": 55,
+    "ga": 21,
+    "pts": 22
    },
    {
     "pos": 5,
