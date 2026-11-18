@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T18:48:42.510Z",
+ "generated": "2026-11-18T19:53:25.088Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-18T18:47:58.191Z",
- "elStandingsUpdated": "2026-11-18T18:48:05.274Z",
+ "elUpdated": "2026-11-18T19:52:36.410Z",
+ "elStandingsUpdated": "2026-11-18T19:52:50.702Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -1043,6 +1043,19 @@
    },
    {
     "pos": 4,
+    "team": "Corona Brasov",
+    "sc": false,
+    "gp": 14,
+    "w": 8,
+    "otw": 3,
+    "otl": 2,
+    "l": 1,
+    "gf": 55,
+    "ga": 35,
+    "pts": 32
+   },
+   {
+    "pos": 5,
     "team": "Budapest Jégkorong Akadémia HC",
     "sc": false,
     "gp": 16,
@@ -1053,19 +1066,6 @@
     "gf": 59,
     "ga": 42,
     "pts": 31
-   },
-   {
-    "pos": 5,
-    "team": "Corona Brasov",
-    "sc": false,
-    "gp": 13,
-    "w": 8,
-    "otw": 2,
-    "otl": 2,
-    "l": 1,
-    "gf": 53,
-    "ga": 34,
-    "pts": 30
    },
    {
     "pos": 6,
@@ -1084,14 +1084,14 @@
     "pos": 7,
     "team": "Sport Club Csíkszereda",
     "sc": true,
-    "gp": 16,
+    "gp": 17,
     "w": 6,
     "otw": 3,
-    "otl": 2,
+    "otl": 3,
     "l": 5,
-    "gf": 51,
-    "ga": 46,
-    "pts": 26
+    "gf": 52,
+    "ga": 48,
+    "pts": 27
    },
    {
     "pos": 8,
