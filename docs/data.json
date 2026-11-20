@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T18:26:07.888Z",
+ "generated": "2026-11-20T19:32:47.896Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-20T18:24:59.220Z",
- "elStandingsUpdated": "2026-11-20T18:21:11.635Z",
+ "elUpdated": "2026-11-20T19:31:58.467Z",
+ "elStandingsUpdated": "2026-11-20T19:31:23.087Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -621,7 +621,7 @@
    "localTime": "18:30",
    "roTime": "18:30",
    "result": {
-    "h": 20,
+    "h": 22,
     "a": 0,
     "ot": false,
     "so": false,
@@ -1010,6 +1010,19 @@
   "EL": [
    {
     "pos": 1,
+    "team": "DEAC",
+    "sc": false,
+    "gp": 17,
+    "w": 12,
+    "otw": 0,
+    "otl": 2,
+    "l": 3,
+    "gf": 67,
+    "ga": 38,
+    "pts": 38
+   },
+   {
+    "pos": 2,
     "team": "DVTK Jegesmedvék",
     "sc": false,
     "gp": 16,
@@ -1022,42 +1035,29 @@
     "pts": 36
    },
    {
-    "pos": 2,
-    "team": "DEAC",
+    "pos": 3,
+    "team": "Corona Brasov",
     "sc": false,
-    "gp": 16,
-    "w": 11,
-    "otw": 0,
+    "gp": 15,
+    "w": 9,
+    "otw": 3,
     "otl": 2,
-    "l": 3,
-    "gf": 62,
+    "l": 1,
+    "gf": 60,
     "ga": 37,
     "pts": 35
    },
    {
-    "pos": 3,
+    "pos": 4,
     "team": "UTE",
     "sc": false,
-    "gp": 15,
+    "gp": 16,
     "w": 10,
     "otw": 1,
     "otl": 0,
-    "l": 4,
-    "gf": 66,
-    "ga": 31,
-    "pts": 32
-   },
-   {
-    "pos": 4,
-    "team": "Corona Brasov",
-    "sc": false,
-    "gp": 14,
-    "w": 8,
-    "otw": 3,
-    "otl": 2,
-    "l": 1,
-    "gf": 55,
-    "ga": 35,
+    "l": 5,
+    "gf": 67,
+    "ga": 36,
     "pts": 32
    },
    {
@@ -1116,13 +1116,13 @@
     "pos": 9,
     "team": "FEHA19",
     "sc": false,
-    "gp": 16,
+    "gp": 17,
     "w": 1,
     "otw": 0,
     "otl": 1,
-    "l": 14,
-    "gf": 30,
-    "ga": 72,
+    "l": 15,
+    "gf": 32,
+    "ga": 77,
     "pts": 4
    },
    {
@@ -1155,6 +1155,32 @@
    },
    {
     "pos": 2,
+    "team": "ACSH Gheorgheni",
+    "sc": false,
+    "gp": 11,
+    "w": 7,
+    "otw": 2,
+    "otl": 0,
+    "l": 2,
+    "gf": 52,
+    "ga": 22,
+    "pts": 25
+   },
+   {
+    "pos": 3,
+    "team": "SC Miercurea Ciuc",
+    "sc": true,
+    "gp": 12,
+    "w": 7,
+    "otw": 1,
+    "otl": 2,
+    "l": 2,
+    "gf": 77,
+    "ga": 21,
+    "pts": 25
+   },
+   {
+    "pos": 4,
     "team": "ACSHC Fenestela 68",
     "sc": false,
     "gp": 13,
@@ -1165,32 +1191,6 @@
     "gf": 63,
     "ga": 46,
     "pts": 23
-   },
-   {
-    "pos": 3,
-    "team": "ACSH Gheorgheni",
-    "sc": false,
-    "gp": 10,
-    "w": 6,
-    "otw": 2,
-    "otl": 0,
-    "l": 2,
-    "gf": 46,
-    "ga": 22,
-    "pts": 22
-   },
-   {
-    "pos": 4,
-    "team": "SC Miercurea Ciuc",
-    "sc": true,
-    "gp": 11,
-    "w": 6,
-    "otw": 1,
-    "otl": 2,
-    "l": 2,
-    "gf": 55,
-    "ga": 21,
-    "pts": 22
    },
    {
     "pos": 5,
@@ -1209,13 +1209,13 @@
     "pos": 6,
     "team": "CSA Steaua Bucuresti",
     "sc": false,
-    "gp": 10,
+    "gp": 11,
     "w": 3,
     "otw": 0,
     "otl": 1,
-    "l": 6,
+    "l": 7,
     "gf": 42,
-    "ga": 42,
+    "ga": 48,
     "pts": 10
    },
    {
@@ -1235,13 +1235,13 @@
     "pos": 8,
     "team": "Sportul Studentesc",
     "sc": false,
-    "gp": 9,
+    "gp": 10,
     "w": 0,
     "otw": 0,
     "otl": 0,
-    "l": 9,
+    "l": 10,
     "gf": 6,
-    "ga": 127,
+    "ga": 149,
     "pts": 0
    }
   ]
