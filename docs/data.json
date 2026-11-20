@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T19:32:47.896Z",
+ "generated": "2026-11-20T20:45:49.773Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-20T19:31:58.467Z",
- "elStandingsUpdated": "2026-11-20T19:31:23.087Z",
+ "elUpdated": "2026-11-20T20:44:53.676Z",
+ "elStandingsUpdated": "2026-11-20T20:40:40.860Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -1010,6 +1010,19 @@
   "EL": [
    {
     "pos": 1,
+    "team": "DVTK Jegesmedvék",
+    "sc": false,
+    "gp": 17,
+    "w": 11,
+    "otw": 2,
+    "otl": 2,
+    "l": 2,
+    "gf": 60,
+    "ga": 38,
+    "pts": 39
+   },
+   {
+    "pos": 2,
     "team": "DEAC",
     "sc": false,
     "gp": 17,
@@ -1020,19 +1033,6 @@
     "gf": 67,
     "ga": 38,
     "pts": 38
-   },
-   {
-    "pos": 2,
-    "team": "DVTK Jegesmedvék",
-    "sc": false,
-    "gp": 16,
-    "w": 10,
-    "otw": 2,
-    "otl": 2,
-    "l": 2,
-    "gf": 54,
-    "ga": 36,
-    "pts": 36
    },
    {
     "pos": 3,
@@ -1064,13 +1064,13 @@
     "pos": 5,
     "team": "Budapest Jégkorong Akadémia HC",
     "sc": false,
-    "gp": 16,
+    "gp": 17,
     "w": 8,
     "otw": 3,
     "otl": 1,
-    "l": 4,
-    "gf": 59,
-    "ga": 42,
+    "l": 5,
+    "gf": 61,
+    "ga": 48,
     "pts": 31
    },
    {
