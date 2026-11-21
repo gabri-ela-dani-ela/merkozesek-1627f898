@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T10:43:34.154Z",
+ "generated": "2026-11-21T11:40:48.466Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-21T10:42:54.037Z",
- "elStandingsUpdated": "2026-11-21T10:43:04.398Z",
+ "elUpdated": "2026-11-21T11:40:05.054Z",
+ "elStandingsUpdated": "2026-11-21T11:38:53.538Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -1155,6 +1155,19 @@
    },
    {
     "pos": 2,
+    "team": "ACSHC Fenestela 68",
+    "sc": false,
+    "gp": 14,
+    "w": 8,
+    "otw": 1,
+    "otl": 0,
+    "l": 5,
+    "gf": 91,
+    "ga": 47,
+    "pts": 26
+   },
+   {
+    "pos": 3,
     "team": "ACSH Gheorgheni",
     "sc": false,
     "gp": 11,
@@ -1167,7 +1180,7 @@
     "pts": 25
    },
    {
-    "pos": 3,
+    "pos": 4,
     "team": "SC Miercurea Ciuc",
     "sc": true,
     "gp": 12,
@@ -1178,19 +1191,6 @@
     "gf": 77,
     "ga": 21,
     "pts": 25
-   },
-   {
-    "pos": 4,
-    "team": "ACSHC Fenestela 68",
-    "sc": false,
-    "gp": 13,
-    "w": 7,
-    "otw": 1,
-    "otl": 0,
-    "l": 5,
-    "gf": 63,
-    "ga": 46,
-    "pts": 23
    },
    {
     "pos": 5,
@@ -1235,13 +1235,13 @@
     "pos": 8,
     "team": "Sportul Studentesc",
     "sc": false,
-    "gp": 10,
+    "gp": 11,
     "w": 0,
     "otw": 0,
     "otl": 0,
-    "l": 10,
-    "gf": 6,
-    "ga": 149,
+    "l": 11,
+    "gf": 7,
+    "ga": 177,
     "pts": 0
    }
   ]
