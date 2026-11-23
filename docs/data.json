@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T19:30:59.874Z",
+ "generated": "2026-11-23T20:46:38.239Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-23T19:30:03.273Z",
- "elStandingsUpdated": "2026-11-23T19:25:44.821Z",
+ "elUpdated": "2026-11-23T20:45:31.993Z",
+ "elStandingsUpdated": "2026-11-23T20:45:30.453Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -1202,13 +1202,13 @@
     "pos": 5,
     "team": "CSM Galati",
     "sc": false,
-    "gp": 11,
+    "gp": 12,
     "w": 5,
     "otw": 0,
     "otl": 0,
-    "l": 6,
-    "gf": 46,
-    "ga": 37,
+    "l": 7,
+    "gf": 49,
+    "ga": 41,
     "pts": 15
    },
    {
@@ -1228,14 +1228,14 @@
     "pos": 7,
     "team": "ACS Sapientia U23",
     "sc": false,
-    "gp": 10,
-    "w": 2,
+    "gp": 11,
+    "w": 3,
     "otw": 0,
     "otl": 0,
     "l": 8,
-    "gf": 40,
-    "ga": 48,
-    "pts": 6
+    "gf": 44,
+    "ga": 51,
+    "pts": 9
    },
    {
     "pos": 8,
