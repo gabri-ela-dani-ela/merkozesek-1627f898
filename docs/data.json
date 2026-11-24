@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T07:05:13.773Z",
+ "generated": "2026-11-24T08:42:40.438Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-24T07:03:55.731Z",
- "elStandingsUpdated": "2026-11-24T07:04:22.711Z",
+ "elUpdated": "2026-11-24T08:42:00.408Z",
+ "elStandingsUpdated": "2026-11-24T08:41:33.124Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -1044,14 +1044,14 @@
     "pos": 3,
     "team": "Corona Brasov",
     "sc": false,
-    "gp": 15,
-    "w": 9,
+    "gp": 16,
+    "w": 10,
     "otw": 3,
     "otl": 2,
     "l": 1,
-    "gf": 62,
-    "ga": 36,
-    "pts": 35
+    "gf": 67,
+    "ga": 38,
+    "pts": 38
    },
    {
     "pos": 4,
@@ -1122,13 +1122,13 @@
     "pos": 9,
     "team": "FEHA19",
     "sc": false,
-    "gp": 17,
+    "gp": 18,
     "w": 1,
     "otw": 0,
     "otl": 2,
-    "l": 14,
-    "gf": 33,
-    "ga": 76,
+    "l": 15,
+    "gf": 35,
+    "ga": 81,
     "pts": 5
    },
    {
