@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T18:52:19.706Z",
+ "generated": "2026-11-26T19:58:58.960Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-26T18:50:58.208Z",
- "elStandingsUpdated": "2026-11-26T18:48:12.484Z",
+ "elUpdated": "2026-11-26T19:58:19.104Z",
+ "elStandingsUpdated": "2026-11-26T19:54:47.497Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -673,11 +673,11 @@
    "localTime": "18:30",
    "roTime": "19:30",
    "result": {
-    "h": 3,
-    "a": 3,
+    "h": 5,
+    "a": 4,
     "ot": false,
     "so": false,
-    "outcome": "live"
+    "outcome": "L"
    },
    "flags": [],
    "tv": false,
@@ -1063,14 +1063,14 @@
     "pos": 4,
     "team": "Budapest Jégkorong Akadémia HC",
     "sc": false,
-    "gp": 18,
-    "w": 9,
+    "gp": 19,
+    "w": 10,
     "otw": 3,
     "otl": 1,
     "l": 5,
-    "gf": 69,
-    "ga": 53,
-    "pts": 34
+    "gf": 74,
+    "ga": 57,
+    "pts": 37
    },
    {
     "pos": 5,
@@ -1089,13 +1089,13 @@
     "pos": 6,
     "team": "Sport Club Csíkszereda",
     "sc": true,
-    "gp": 18,
+    "gp": 19,
     "w": 7,
     "otw": 3,
     "otl": 3,
-    "l": 5,
-    "gf": 57,
-    "ga": 50,
+    "l": 6,
+    "gf": 61,
+    "ga": 55,
     "pts": 30
    },
    {
@@ -1128,27 +1128,27 @@
     "pos": 9,
     "team": "FEHA19",
     "sc": false,
-    "gp": 18,
+    "gp": 19,
     "w": 1,
-    "otw": 0,
+    "otw": 1,
     "otl": 2,
     "l": 15,
-    "gf": 35,
-    "ga": 81,
-    "pts": 5
+    "gf": 37,
+    "ga": 82,
+    "pts": 7
    },
    {
     "pos": 10,
     "team": "Dunaújvárosi Acélbikák",
     "sc": false,
-    "gp": 18,
+    "gp": 19,
     "w": 0,
     "otw": 0,
-    "otl": 2,
+    "otl": 3,
     "l": 16,
-    "gf": 24,
-    "ga": 98,
-    "pts": 2
+    "gf": 25,
+    "ga": 100,
+    "pts": 3
    }
   ],
   "CN": [
