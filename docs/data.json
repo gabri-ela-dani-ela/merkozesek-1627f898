@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T17:57:11.250Z",
+ "generated": "2026-11-27T18:53:02.999Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-27T17:55:56.215Z",
- "elStandingsUpdated": "2026-11-27T17:55:54.553Z",
+ "elUpdated": "2026-11-27T18:51:42.293Z",
+ "elStandingsUpdated": "2026-11-27T18:48:18.461Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -697,8 +697,8 @@
    "localTime": "18:30",
    "roTime": "19:30",
    "result": {
-    "h": 0,
-    "a": 0,
+    "h": 1,
+    "a": 2,
     "ot": false,
     "so": false,
     "outcome": "live"
@@ -1028,6 +1028,19 @@
   "EL": [
    {
     "pos": 1,
+    "team": "Corona Brasov",
+    "sc": false,
+    "gp": 17,
+    "w": 11,
+    "otw": 3,
+    "otl": 2,
+    "l": 1,
+    "gf": 74,
+    "ga": 43,
+    "pts": 41
+   },
+   {
+    "pos": 2,
     "team": "DEAC",
     "sc": false,
     "gp": 18,
@@ -1040,30 +1053,17 @@
     "pts": 41
    },
    {
-    "pos": 2,
+    "pos": 3,
     "team": "DVTK Jegesmedvék",
     "sc": false,
-    "gp": 18,
+    "gp": 19,
     "w": 11,
     "otw": 2,
     "otl": 2,
-    "l": 3,
-    "gf": 64,
-    "ga": 46,
+    "l": 4,
+    "gf": 69,
+    "ga": 53,
     "pts": 39
-   },
-   {
-    "pos": 3,
-    "team": "Corona Brasov",
-    "sc": false,
-    "gp": 16,
-    "w": 10,
-    "otw": 3,
-    "otl": 2,
-    "l": 1,
-    "gf": 67,
-    "ga": 38,
-    "pts": 38
    },
    {
     "pos": 4,
