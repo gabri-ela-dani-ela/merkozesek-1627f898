@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T18:53:02.999Z",
+ "generated": "2026-11-27T19:54:59.982Z",
  "sources": {
   "elSchedule": "https://www.jegkorongszovetseg.hu/ersteliga/mentrend",
   "elStandings": "https://www.jegkorongszovetseg.hu/ersteliga/tabella",
@@ -7,8 +7,8 @@
   "frhgChamp": "https://icehockey.ro/championship/49",
   "frhgSchedule": "https://icehockey.ro/schedule?sort1=game_date&sort2=game_time&order=asc&perPage=96&page=1"
  },
- "elUpdated": "2026-11-27T18:51:42.293Z",
- "elStandingsUpdated": "2026-11-27T18:48:18.461Z",
+ "elUpdated": "2026-11-27T19:53:45.444Z",
+ "elStandingsUpdated": "2026-11-27T19:49:45.945Z",
  "config": {
   "ntfyTopic": "merkozesek-sccs-2a0ed3ecadd2"
  },
@@ -697,11 +697,11 @@
    "localTime": "18:30",
    "roTime": "19:30",
    "result": {
-    "h": 1,
-    "a": 2,
+    "h": 2,
+    "a": 3,
     "ot": false,
     "so": false,
-    "outcome": "live"
+    "outcome": "W"
    },
    "flags": [],
    "tv": false,
@@ -1043,13 +1043,13 @@
     "pos": 2,
     "team": "DEAC",
     "sc": false,
-    "gp": 18,
+    "gp": 19,
     "w": 13,
     "otw": 0,
     "otl": 2,
-    "l": 3,
-    "gf": 75,
-    "ga": 42,
+    "l": 4,
+    "gf": 77,
+    "ga": 47,
     "pts": 41
    },
    {
@@ -1069,17 +1069,43 @@
     "pos": 4,
     "team": "Budapest Jégkorong Akadémia HC",
     "sc": false,
-    "gp": 19,
+    "gp": 20,
     "w": 10,
     "otw": 3,
     "otl": 1,
-    "l": 5,
-    "gf": 74,
-    "ga": 57,
+    "l": 6,
+    "gf": 75,
+    "ga": 59,
     "pts": 37
    },
    {
     "pos": 5,
+    "team": "Sport Club Csíkszereda",
+    "sc": true,
+    "gp": 20,
+    "w": 8,
+    "otw": 3,
+    "otl": 3,
+    "l": 6,
+    "gf": 64,
+    "ga": 57,
+    "pts": 33
+   },
+   {
+    "pos": 6,
+    "team": "Gyergyói Hoki Klub",
+    "sc": false,
+    "gp": 19,
+    "w": 9,
+    "otw": 2,
+    "otl": 2,
+    "l": 6,
+    "gf": 58,
+    "ga": 42,
+    "pts": 33
+   },
+   {
+    "pos": 7,
     "team": "UTE",
     "sc": false,
     "gp": 18,
@@ -1092,55 +1118,29 @@
     "pts": 32
    },
    {
-    "pos": 6,
-    "team": "Sport Club Csíkszereda",
-    "sc": true,
-    "gp": 19,
-    "w": 7,
-    "otw": 3,
-    "otl": 3,
-    "l": 6,
-    "gf": 61,
-    "ga": 55,
-    "pts": 30
-   },
-   {
-    "pos": 7,
-    "team": "Gyergyói Hoki Klub",
-    "sc": false,
-    "gp": 18,
-    "w": 8,
-    "otw": 2,
-    "otl": 2,
-    "l": 6,
-    "gf": 56,
-    "ga": 41,
-    "pts": 30
-   },
-   {
     "pos": 8,
     "team": "Háromszéki Ágyúsok",
     "sc": false,
-    "gp": 16,
-    "w": 3,
+    "gp": 17,
+    "w": 4,
     "otw": 2,
     "otl": 0,
     "l": 11,
-    "gf": 41,
-    "ga": 63,
-    "pts": 13
+    "gf": 46,
+    "ga": 65,
+    "pts": 16
    },
    {
     "pos": 9,
     "team": "FEHA19",
     "sc": false,
-    "gp": 19,
+    "gp": 20,
     "w": 1,
     "otw": 1,
     "otl": 2,
-    "l": 15,
-    "gf": 37,
-    "ga": 82,
+    "l": 16,
+    "gf": 39,
+    "ga": 85,
     "pts": 7
    },
    {
